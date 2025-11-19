@@ -1,0 +1,2059 @@
+{
+	"meta": {
+		"language_name": "Chinese (Traditional)",
+		"language_name_native": "中文 (繁體)",
+		"language_code": "zh-Hant",
+		"creators": "佚名"
+	},
+	"common": {
+		"ui": {
+			"translation_coverage": "在地化進度",
+			"translation_by": "譯者列表",
+			"username": "使用者名稱",
+			"password": "密碼",
+			"email": "電子信箱",
+			"repeat_password": "再次輸入密碼",
+			"back_button": "返回",
+			"resend_button": "重新發送",
+			"register_button": "註冊",
+			"change_button": "變更",
+			"logout_button": "登出",
+			"confirm_button": "確認",
+			"continue_button": "繼續",
+			"ok_button": "確定",
+			"cancel_button": "取消",
+			"load_button": "載入",
+			"new_password": "新密碼",
+			"repeat_new_password": "再次輸入新密碼",
+			"contact": "聯絡",
+			"socials": "社交媒體",
+			"legal": "法律規範",
+			"community_translations": "社群翻譯",
+			"loading": "正在載入",
+			"play": "開始遊戲",
+			"use_button": "使用",
+			"claim_button": "領取",
+			"update_button": "更新",
+			"chat": "聊天",
+			"block": "封鎖",
+			"send_friend_request": "提出好友申請",
+			"invite_to_game": "遊戲邀請",
+			"none": "無",
+			"default": "預設",
+			"delete": "刪除",
+			"close_button": "關閉",
+			"report": "檢舉",
+			"not_applicable": "不適用",
+			"MISSING-claimed_button": "Claimed"
+		},
+		"popout_messages": {
+			"unexpected_error": "發生意外的錯誤",
+			"please_try_again": "請重新嘗試",
+			"error_contacting_server": "連接伺服器時發生錯誤",
+			"internal_server_error": "伺服器內部錯誤",
+			"down_for_maintenance": "正在維護伺服器",
+			"guest_account": "訪客帳號無法使用",
+			"guest_account_text": "訪客帳號未能使用此功能。",
+			"block_player": {
+				"title": "封鎖「_NAME_」",
+				"text": "你不會收到任何來自已封鎖玩家的訊息、好友申請及遊戲邀請",
+				"confirm": "確認封鎖",
+				"cancel": "取消"
+			}
+		},
+		"registration": {
+			"terms_of_service": "你必須同意服務條款以進行註冊",
+			"no_username": "尚未填寫使用者名稱",
+			"username_length": "使用者名稱不能多於 16 個字元",
+			"invalid_username": "使用者名稱僅允許半形的英文字母、數字及底線符號",
+			"amq_username": "使用者名稱「AMQ」因已被保留，故不能使用",
+			"password_too_short": "密碼必須為 5 個字元或以上",
+			"password_too_long": "密碼字元上限為 9999",
+			"passwords_not_matching": "密碼不符",
+			"no_email": "尚未提供電子信箱",
+			"invalid_email": "並非有效的電子信箱",
+			"no_country": "尚未選擇現居地",
+			"disabled": "暫不開放註冊",
+			"unknown_country": "不明的現居地",
+			"username_taken": "已有人認領該使用者名稱",
+			"email_taken": "該電子信箱已被註冊",
+			"email_sent": "已發送註冊電子郵件到 _EMAIL_",
+			"email_length": "電子信箱的字元上限為 255",
+			"account_created": "成功建立帳號「_NAME_」"
+		},
+		"guest_account": {
+			"title": "訪客帳號",
+			"click_to_register": "點擊這裡以完成註冊",
+			"complete_registration": "完成註冊",
+			"complete_registration_message": "請檢查你的電子信箱_BOLD_ _EMAIL_ _BOLD_，並點擊認證連結以完成註冊。"
+		}
+	},
+	"login_page": {
+		"ui": {
+			"play_now": "即時暢玩",
+			"login": "登入",
+			"send_button": "送出",
+			"return_to_login": "返回登入頁面",
+			"stay_signed_in": "保持登入狀態",
+			"forgot_password": "忘記密碼？",
+			"forgot_username": "忘記使用者名稱？",
+			"country_of_residence": "現居地",
+			"agree_terms_of_service": "我同意_LINK_服務條款_LINK_",
+			"start_playing_now": "開始暢玩"
+		},
+		"popout_messages": {
+			"create_guest_account": {
+				"title": "建立訪客帳號",
+				"text": "建立訪客帳號的同時你已同意_LINK_服務條款_LINK_及_LINK2_隱私權政策_LINK2_。",
+				"error_title": "建立訪客帳號時出現錯誤",
+				"error_disabled": "暫不開放註冊訪客帳號"
+			},
+			"select_country": "請選擇現居地",
+			"country_error": "記錄現居地時出現錯誤",
+			"already_online": { "title": "帳號已在線", "text": "繼續登入，並登出其他裝置？" },
+			"guest_timeout": "此訪客帳號已逾時，請建立新帳號"
+		},
+		"text": {
+			"create_account": "建立帳號",
+			"recover_username_title": "復原使用者名稱",
+			"recover_username_text": "請輸入註冊時使用的電子信箱以接收記載使用者名稱的郵件。",
+			"forgot_password_title": "忘記密碼",
+			"forgot_password_text": "請輸入註冊時使用的電子信箱以接收重設密碼連結。",
+			"reset_password_title": "重設密碼",
+			"missing_information": "缺少帳戶資訊",
+			"missing_country": "帳號尚未記載你的現居地，請於下方選擇。",
+			"promo_title": "#1 的動畫歌曲猜謎！",
+			"promo_one": {
+				"title": "無止境的題庫",
+				"line_one": "源於至少八千部動畫、三萬五千首以上的樂曲",
+				"line_two": "所有的測題組合均獨一無二",
+				"line_three": "可基於你的 MyAnimeList、AniList 或 Kitsu 動畫列表自訂客製化測驗",
+				"line_four": "免費暢玩"
+			},
+			"promo_two": {
+				"title": "隨心所玩",
+				"line_one": "和死黨們",
+				"line_two": "挑戰個人極限",
+				"line_three": "於排行榜上攀爬",
+				"line_four": "或探索未知迷宮深處"
+			},
+			"login_queue": {
+				"title": "輪候登入",
+				"text": "目前登入伺服器負荷量過高，你很快就能登入遊戲",
+				"position": "目前的排隊順位：_SPAN_ 0 _SPAN_"
+			}
+		},
+		"messages": {
+			"account_verified": "帳號已認證，現在可登入",
+			"account_verified_guest": "帳號已認證，可關閉此分頁",
+			"verification_error": "認證帳號時出現錯誤：發生意外的錯誤",
+			"unknown_reset_code": "不明重設代碼（Reset Code）",
+			"wrong_username_password": "錯誤的使用者名稱或密碼",
+			"email_sent": "已發送電子郵件",
+			"password_updated": "已更新密碼"
+		},
+		"account_verification": {
+			"title": "進行帳號認證",
+			"text_one": "_SPAN_ 帳號尚未認證 _SPAN_，請點擊發送到 _BOLD_ _EMAIL_ _BOLD_ 的連結進行認證。",
+			"text_two": "沒有收到電子郵件嗎？請耐心等候一分鐘，及檢查垃圾郵件匣。如仍未收到電子郵件，則可嘗試重新發送，或在下方欄位變更電子信箱。"
+		},
+		"banned_messages": {
+			"title_temp": "帳號暫被停用",
+			"title_ban": "帳號被永久停用",
+			"text_one": "你的帳號已因作弊而被標記。使用插件、程式碼片段、變更網頁介面或其他方式以取得不公平之優勢均違反遊戲服務條款。",
+			"text_two": "你的帳號已因違反服務條款而被管理員標記及停用。你應已收到以英語說明詳細原因的電子郵件。",
+			"text_three": "你的帳號已因作弊而被標記。使用插件、程式碼片段、變更網頁介面或其他方式以取得不公平之優勢均違反遊戲服務條款。",
+			"text_temp": "由於這次是初犯，帳號僅暫被停用。如於恢復帳號後繼續作弊，則會被永久停用。",
+			"text_perm": "由於這次是再犯，帳號已被永久停用。",
+			"text_end": "如果認為這是誤判，你能於遊戲 _LINK_ Discord 伺服器_LINK_ 的 #open-a-ticket 頻道用英語提出申訴。",
+			"suspended_until": "帳號停用至"
+		}
+	},
+	"main_menu": {
+		"ui": {
+			"news": "最新消息",
+			"stay_connected": "緊貼最新動態",
+			"merch_store": "周邊商店",
+			"song_library": "樂曲資料庫",
+			"leaderboard": "排行榜"
+		},
+		"carousel": {
+			"social_promo": "追蹤我們的 Discord 和 Patreon 以獲得免費的抽獎券！",
+			"patreon_promo": "資助此遊戲，以解鎖各種獨家獎勵",
+			"sale_names": {
+				"fall": "秋日特賣！",
+				"summer": "夏日特賣！",
+				"winter": "冬日特賣！",
+				"spring": "春日特賣！",
+				"halloween": "萬聖節促銷！",
+				"christmas": "聖誕促銷！",
+				"lunar": "農曆新年促銷！",
+				"valentine": "情人節促銷！",
+				"summer_games": "夏季奧運促銷！"
+			},
+			"sale_text": "取得最划算的抽獎券吧！",
+			"skin_header": "期間限定",
+			"skin_seasons": {
+				"spring": "秋季造型",
+				"summer": "夏季造型",
+				"fall": "秋季造型",
+				"winter": "冬季造型",
+				"halloween": "萬聖節造型",
+				"christmas": "聖誕造型",
+				"lunar": "農曆新年造型",
+				"valentine": "情人節造型",
+				"summer_games": "夏季奧運造型"
+			},
+			"skin_footer": "現已推出"
+		},
+		"quiz_of_the_day": {
+			"title": "每日測驗",
+			"time_slots": "各區開始時段",
+			"weekly_schedule": "每週時間表",
+			"current_week": "本週",
+			"what_is": "每日測驗到底是甚麼？",
+			"what_is_description": "每日測驗是一個允許玩家在指定時段與社群互相較勁、且無人數上限的模式。目前包括競爭向的積分賽，以及可享受各種趣味社群自訂測驗的主題問答。",
+			"ranked_description": "積分賽說明",
+			"week": "第 _NUMBER_ 週",
+			"championship": "冠軍賽",
+			"championship_description": "當月積分賽總分排名前 150 名的玩家可角逐月度冠軍寶座！",
+			"rest_day": "休賽日",
+			"rest_day_description": "冠軍賽翌日不進行任何測驗。",
+			"ranked": "積分賽",
+			"ranked_finished": "已結束",
+			"ranked_types": {
+				"novice": { "title": "入門", "description": "共 45 首樂曲，出題傾向新手與正在累積經驗的玩家" },
+				"expert": { "title": "進階", "description": "傾向資深玩家的 85 首樂曲，且可獲得額外積分" }
+			},
+			"states": {
+				"ranked": {
+					"offline": "積分賽 - 準備中",
+					"lobby": "積分賽 - 等待室已開放",
+					"playing": "積分賽 - 進行中",
+					"completed": "積分賽 - 已結束",
+					"rest_day": "積分賽 - 休賽日"
+				},
+				"themed": {
+					"offline": "主題問答 - 準備中",
+					"lobby": "主題問答 - 等待室已開放",
+					"playing": "主題問答 - 進行中",
+					"completed": "主題問答 - 已結束"
+				},
+				"championship": {
+					"offline": "冠軍賽 - 準備中",
+					"lobby": "冠軍賽 - 等待室已開放",
+					"playing": "冠軍賽 - 進行中",
+					"completed": "冠軍賽 - 已結束"
+				}
+			},
+			"week_days": {
+				"monday": "星期一",
+				"tuesday": "星期二",
+				"wednesday": "星期三",
+				"thursday": "星期四",
+				"friday": "星期五",
+				"saturday": "星期六",
+				"sunday": "星期日"
+			},
+			"popout_messages": {
+				"weekly_quiz": { "title": "每週測驗時間表", "text": "請按此查閱時間表以了解詳情" },
+				"region_time": { "text": "區域與測驗開始倒數" }
+			},
+			"alerts": {
+				"ranked_rules": {
+					"title": "比賽規則",
+					"text": "在參與的同時，你已同意在比賽期間不向其他玩家提供任何提示或答案。亦不得使用任何工具、方式或軟體以取得不公平之優勢。"
+				}
+			},
+			"regions": {
+				"west": { "name": "西部", "shorthand": "西" },
+				"east": { "name": "東部", "shorthand": "東" },
+				"central": { "name": "中部", "shorthand": "中" }
+			},
+			"week_year_2": "_NUMBER_年第_NUMBER_週"
+		},
+		"ranked_description": {
+			"title": "積分賽模式",
+			"description": "想與好友和遊戲社群一較高下？積分賽正適合你。你能利用於每場比賽所累計的積分解鎖每月專屬獎勵，並提高獲得月末分區冠軍賽參賽資格的機率。 _BREAK_ 注：帳號等級須為十或以上，方可參加積分賽。",
+			"how_it_works": "進行方式",
+			"regions": "區域",
+			"region_description": "積分賽分為東部、中部與西部三個地區，每區均設有獨立的排行榜、開賽時間及冠軍賽。你有權參加所有地區賽事，但所得積分僅在獲得該分數的地區排行榜生效。",
+			"ranked_game": "比賽流程",
+			"ranked_game_description_one": "你可在開賽前 30 分鐘於主頁選擇到入門或進階的遊戲等待室等候。 _BREAK_ 入門房間為新手與休閒玩家而設，包含 45 首以簡單及中等難度為主的樂曲，每首作答時間為 20 秒。 _BREAK_ 進階房間則傾向資深與進取型玩家，於總題庫隨機抽取 85 首樂曲，每首作答時間為 15 秒。",
+			"ranked_game_description_two": "每場積分賽結束時，你將根據答對的樂曲數獲得基本積分。 _BREAK_ 入門賽每首 3 分。進階賽得分會隨答對樂曲數遞增：首五題 5 分、次五題 6 分、再五題 7 分，依序增加。_BREAK_ 基本積分乘 1.3 後為實際積分。",
+			"end_of_season": "月賽結束",
+			"end_of_season_description": "每月最後一個星期六會舉辦冠軍賽，當日不舉行一般積分賽。冠軍賽與進階賽的形式近乎相同，但僅開放排行榜前 150 名玩家參與。答對題目最多者即獲得該區月度冠軍之殊榮。 _BREAK_ 冠軍賽結束後的下一個星期一將重置所有積分，並展開新的月賽。",
+			"rules": "規則",
+			"rules_description": "積分賽模式旨在檢驗個人實力，因此禁止向其他玩家提供任何提示或答案。同時嚴禁在任何遊戲模式使用會帶來不公平優勢的工具、方法或軟體。 _BREAK_ 一旦違規，你的帳號將被停用，並取消所有已獲得的獎勵。"
+		},
+		"avatar_drive": {
+			"standings": "目前排名",
+			"recent": "最近捐款",
+			"weekly": "本週",
+			"weekly_short": "週",
+			"monthly": "本月",
+			"monthly_short": "月",
+			"all_time": "總計",
+			"all_time_short": "總",
+			"donate": "捐款",
+			"amount": "金額",
+			"description": "進行捐款以決定下一個新頭像吧！每當許願池結算時，當下排名第一的頭像將被追加至遊戲內！須注意許願池的結算日為到達目標金額的數天後。",
+			"faq_what_is": {
+				"title": "頭像許願池是甚麼？",
+				"text": "頭像許願池是玩家能直接支持遊戲的同時，對預訂實裝的頭像走向產生一定影響力的系統。流程十分簡單，捐款時你能提名許願池內的既有頭像或新頭像，而捐款金額將即時反映至頭像排名。當許願池到達目標金額後，累計捐款金額排名第一的頭像將會新增到遊戲。"
+			},
+			"faq_nomination_type": {
+				"title": "可提名的頭像類型是？",
+				"text": "你能提名各式各樣的頭像，但大前提是不會令任何人感到不愉快、同時合法且符合這遊戲的世界觀。所有提名均會經過仔細評估，如不符合上述規定則會被駁回。"
+			},
+			"faq_existing_avatar": {
+				"title": "能提名既有頭像嗎？",
+				"text": "歡迎至極！如果既有頭像於當月的許願池突圍而出，該頭像將能以全新造型登場。你亦能指定造型，假如你想頭像 Hibiki 穿上忍者裝束，你能在描述用英語填寫「Ninja Hibiki」。"
+			},
+			"donate_towards": "捐款予",
+			"nominated_avatar": "既有提名頭像",
+			"new_avatar": "新頭像",
+			"avatar_description": "頭像說明",
+			"avatar_description_placeholder": "請對頭像作出簡略描述（英語限定）",
+			"nomination": "提名",
+			"anonymous_donation": "匿名捐款",
+			"free_donation": "使用免費捐款額度",
+			"free_donation_amount": "金額： _NUMBER_€ 歐元",
+			"checkout": "前往付款",
+			"popover": { "no_free_donation": "已使用本月的免費捐款額度" },
+			"alerts": {
+				"invalid_amount": {
+					"title": "無效的捐款金額",
+					"text": { "illegal": "你必須用半形數字輸入金額", "minimum": "捐款金額下限為 1€ 歐元" }
+				},
+				"donation_error": { "title": "捐款發生錯誤" },
+				"donation_received": { "title": "已成功捐款", "text": "感謝你支持這遊戲！" },
+				"use_free_donation": { "title": "使用免費捐款額度", "text": "每月免費捐款僅限一次。" }
+			},
+			"faq_button": "問與答",
+			"faq_header": "常見問題",
+			"title": "頭像許願池",
+			"MISSING-approx_dollars_2": "Approx. $_SPAN_ _NUMBER_ _SPAN_",
+			"donation_choice_text": { "MISSING-nomination": "Nomination", "MISSING-secondary_choice": "Secondary Choice" },
+			"DELETED-approx_dollars": "約美元 $"
+		},
+		"social_rewards": {
+			"title": "社群獎勵",
+			"description_2": "玩家追蹤遊戲的 Discord 和 Patreon 時，可各領 8 張抽獎券以示謝意。_BREAK_領獎前請先確認已加入 _LINK_ Discord 伺服器_LINK_。 _BREAK_ 請先免費加入或成為 _LINK2_ Patreon _LINK2_ 贊助者以領取獎勵。"
+		},
+		"game_mode": {
+			"title": "遊戲模式",
+			"solo": { "title": "單人", "description": "利用無盡的客製化題庫挑戰自我" },
+			"multiplayer": { "title": "多人", "description": "與朋友及各路動畫同好一起進行客製化測驗" },
+			"community": { "title": "社群", "description": "遊玩社群自訂測驗，或著手設計你的獨特題庫" },
+			"jam": { "title": "即興", "description": "可供玩家隨時進出的無盡測驗" },
+			"nexus": { "title": "試煉", "description": "可獨自挑戰或與好友組隊的獨特 Roguelike 問答模式" }
+		}
+	},
+	"menu_bar": {
+		"settings": {
+			"language": {
+				"custom": "自訂",
+				"custom_description": "可於遊戲內測試譯文檔案。",
+				"custom_title": "自訂譯文檔案",
+				"custom_placeholder": "譯文檔案網址",
+				"custom_alert_description": "請輸入譯文檔案的網址",
+				"custom_failed_to_load": { "title": "載入自訂譯文失敗", "text": "末能經由提供的網址載入自訂譯文檔案。" },
+				"custom_wrong_format": {
+					"title": "在地化檔案格式錯誤",
+					"text": "提供的譯文檔案格式不正確。請利用瀏覽器開發人員工具的「Console」分頁了解詳情。"
+				}
+			}
+		},
+		"friend_list": {
+			"friends": "好友",
+			"total": "總數",
+			"all": "所有",
+			"statuses": {
+				"online": "線上",
+				"offline": "離線",
+				"away": "閒置",
+				"do_not_disturb": "勿擾",
+				"invisible": "隱形",
+				"playing_nexus": "正在參與_NAME_試煉",
+				"in_nexus_lobby": "在_NAME_試煉等待室",
+				"in_lobby": "在_NAME_等待室",
+				"spectating_quiz": "正在旁觀_NAME_測驗",
+				"in_quiz": "正在參與_NAME_測驗",
+				"mode_names": {
+					"co-op": "共鬥",
+					"private": "私人",
+					"jam": "即興",
+					"event": "活動",
+					"solo": "單人",
+					"quiz_of_the_day": "每日"
+				}
+			},
+			"options": { "report": "檢舉", "remove_friend": "刪除好友", "join_game": "加入遊戲" },
+			"popout_messages": { "not_in_game": "你不在遊戲室", "solo_game_invite": "無法於單人遊戲模式邀請玩家" }
+		},
+		"menu": {
+			"patreon": "Patreon",
+			"donate": "捐款",
+			"song_history": "遊戲記錄",
+			"settings": "設定",
+			"blocked_players": "已封鎖玩家",
+			"change_password": "變更密碼",
+			"leaderboard": "排行榜",
+			"tutorial": "教學",
+			"guidelines": "遊戲方針",
+			"about": "關於",
+			"logout": "登出"
+		},
+		"video_host": {
+			"title": "主機連線速度",
+			"description": "各視訊主機連線狀態",
+			"click_to_retest": "按此重設連線",
+			"speed": "速度：_SPANC_ _NUMBER_  _SPANC_",
+			"connection_status": { "good": "優良", "okay": "尚可", "poor": "略遜", "bad": "惡劣" }
+		}
+	},
+	"player_profile": {
+		"profile_image": "個人檔案圖像",
+		"avatar": "目前頭像",
+		"no_badges": "沒有陳列徽章",
+		"profile": "個人檔案",
+		"special_badges": "專屬徽章",
+		"standard_badges": "一般徽章",
+		"name_effects": "名稱特效",
+		"name_color": "底色",
+		"name_glow": "光暈",
+		"hidden": "不公開",
+		"account_creation": "帳號建立日期",
+		"songs_played": "已遊玩樂曲數",
+		"guess_rate": "正解率",
+		"options": "選項",
+		"edit": "編輯",
+		"change_nickname": "變更暱稱",
+		"change_nickname_modal": {
+			"description": "你可以使用一個改名代幣變更顯示暱稱。你的帳號每年會自動獲得一個代幣；若為 Patreon 等級 4 或以上的贊助者，則每月額外再獲得一個。 _BREAK_ 如決定變更，你的舊暱稱（就算和使用者名稱相同）亦可供他人認領。 _BREAK_ 你的舊暱稱仍會顯示在個人檔案。",
+			"current_tokens": "現有改名代幣數：_SPAN_ _NUMBER_ _SPAN_",
+			"check_availability": "檢查是否可用",
+			"MISSING-new_nickname": "New Nickname",
+			"change_message": {
+				"MISSING-title": "Change Nickname to _NAME_",
+				"MISSING-text": "Ones changed you can't go back to your current name without using a name change token"
+			},
+			"MISSING-nickname_available": "Nickname Available",
+			"nickname_not_available": {
+				"MISSING-title": "Nickname Not Available",
+				"MISSING-already_in_use": "This nickname is already in use",
+				"MISSING-banned": "This nickname is banned"
+			},
+			"change_nickname_messages": {
+				"MISSING-banned": "Your Account is Banned from Changing Nickname",
+				"MISSING-success": "Nickname Changed",
+				"MISSING-no_token": "No Name Change Tokens Available"
+			}
+		},
+		"alerts": { "error_getting_profile": "讀取玩家個人檔案時發生錯誤", "unknown_player": "不明玩家" },
+		"name_effects_entries": {
+			"challenger_color": { "name": "挑戰者", "description": "僅開放給符合上月冠軍賽參與資格的玩家" },
+			"challenger_glow": { "name": "挑戰者", "description": "僅開放給上月冠軍賽前 50 名玩家" },
+			"patreon_color": { "name": "Patreon", "description": "僅開放給 Patreon 等級 3 或以上的贊助者" },
+			"patreon_glow": { "name": "Patreon", "description": "僅開放給 Patreon 等級 4 或以上的贊助者" },
+			"month_patreon_current": "僅開放給本月 Patreon 等級 5 或 6 的贊助者",
+			"month_patreon_previous": "僅開放給發布月為 Patreon 等級 5 或本月等級 6 的贊助者",
+			"month_patreon_previous_unlocked": "僅開放給發布月為 Patreon 等級 5 或本月等級 6 的贊助者。發布當月你是贊助者。"
+		}
+	},
+	"badges": {
+		"ranked": {
+			"name": "_YEAR_年_NUMBER_月積分賽_TIER_級",
+			"name_result": "_YEAR_年度積分賽_TIER_級",
+			"description": "於_YEAR_年_NUMBER_月積分賽獲得_TIER_級",
+			"description_result": "於_YEAR_年度積分賽獲得_TIER_級",
+			"tiers": { "bronze": "銅", "silver": "銀", "gold": "金", "platinum": "白金", "diamond": "鑽石" }
+		},
+		"champion": {
+			"name": {
+				"first": "_YEAR_年_NUMBER_月冠軍",
+				"second": "_YEAR_年_NUMBER_月亞軍",
+				"third": "_YEAR_年_NUMBER_月季軍"
+			},
+			"description": {
+				"first": "於_YEAR_年_NUMBER_月冠軍賽獲勝",
+				"second": "於_YEAR_年_NUMBER_月冠軍賽得到第二名",
+				"third": "於_YEAR_年_NUMBER_月冠軍賽得到第三名"
+			}
+		},
+		"challenger": {
+			"name": {
+				"top": "_YEAR_年_NUMBER_月精英",
+				"mid": "_YEAR_年_NUMBER_月優異者",
+				"qualified": "_YEAR_年_NUMBER_月挑戰者"
+			},
+			"description": {
+				"qualified": "獲得_YEAR_年_NUMBER_月冠軍賽參與資格",
+				"top": "於_YEAR_年_NUMBER_月冠軍賽獲得前_TOP_名"
+			}
+		},
+		"patreon": {
+			"name": {
+				"start": "Patreon 贊助者",
+				"month": "_NUMBER_個月的 Patreon 贊助者",
+				"one_year": "1年的 Patreon 贊助者",
+				"multiple_years": "_NUMBER_年的 Patreon 贊助者"
+			},
+			"description": "遊戲的 Patreon 贊助者"
+		},
+		"avatar": { "name": "_NAME_ 徽章", "description": "取得十個 _NAME_ 的款式或不同造型" },
+		"mod": {
+			"name": { "game": "遊戲管理員", "jam": "即興模式管理員" },
+			"description": { "game": "遊戲管理團隊成員", "jam": "即興模式管理團隊成員" }
+		},
+		"aragaimu": {
+			"name": {
+				"participant": "_YEAR_年 Aragaimu 賽事参加者",
+				"top32": "_YEAR_年 Aragaimu 賽事前32名",
+				"top4": "_YEAR_年 Aragaimu 賽事前4名"
+			},
+			"description": {
+				"participant": "參與_YEAR_年 Aragaimu 賽事並完成首輪賽程",
+				"top32": "於_YEAR_年 Aragaimu 賽事獲得前32名",
+				"top4": "於_YEAR_年 Aragaimu 賽事獲得前4名"
+			}
+		}
+	},
+	"patreon_window": {
+		"title": "Patreon",
+		"description": "成為 Patreon 贊助者能協助此遊戲的營運與開發。製作並與各位分享這遊戲是段美好的經歷，而個人仍有許多想實現的構想。在 Patreon 贊助的話不僅能分擔遊戲的營運成本，亦能讓開發得以持續！當然，你將獲得數項專屬福利作為回禮！",
+		"reward_examples": {
+			"title": "部分 Patreon 專屬福利",
+			"sneak_peeks": "先行預覽",
+			"patreon_badge": "Patreon 徽章",
+			"custom_emotes": "自訂表情符號",
+			"monthly_tickets": "每月抽獎券"
+		},
+		"already_a_backer": "已是贊助者？",
+		"link_account": "連接 Patreon 帳號",
+		"become_a_backer": "成為贊助者",
+		"patreon_linked": "已連接 Patreon！",
+		"backer_level": {
+			"title": "贊助者等級",
+			"tier": "等級 _NUMBER_",
+			"rewards": { "emotes": "_NUMBER_ 個表情符號", "tickets": "_NUMBER_ 張抽獎券" }
+		},
+		"badge_level": "徽章等級",
+		"badge_level_info": "徽章等級和你成為等級 2 或以上贊助者的月數掛鉤。",
+		"patreon_page": "Patreon 専頁",
+		"relink": "重新連接",
+		"update_info": "更新資料",
+		"unlink_account": "中斷連接",
+		"linked_account": "已連接帳號",
+		"emotes": {
+			"title": "表情符號",
+			"upload": "上傳",
+			"close": "關閉",
+			"manage": "管理",
+			"empty": "空空如也",
+			"states": {
+				"waiting_approval": { "name": "尚待審核", "shorthand": "待" },
+				"active": { "name": "可用", "shorthand": "可" },
+				"disabled": { "name": "禁止", "shorthand": "禁" }
+			},
+			"error_deleting": "刪除表情符號時發生錯誤",
+			"upload_emote": {
+				"title": "上傳表情符號",
+				"description": {
+					"line_one": "_BOLD_ 可用格數 _BOLD_",
+					"line_two": "標準：_NUMBER_",
+					"line_three": "動態：_NUMBER_"
+				},
+				"confirm_button": "選擇檔案",
+				"footer": "可用檔案類型：png（標準），gif（動態）。檔案大小上限：256 KB。",
+				"file_too_large": {
+					"title": "檔案超過上限",
+					"description": "檔案大小上限為 256 KB。已選擇檔案為 _NUMBER_ KB。"
+				},
+				"no_standard_slot": { "title": "沒有可用標準格數", "description": "目前沒有可用的標準表情符號格數" },
+				"no_animated_slot": { "title": "沒有可用動態格數", "description": "目前沒有可用的動態表情符號格數" },
+				"selected_image": {
+					"title": "已選擇圖像",
+					"image": "圖像",
+					"resulting_emote": "表情符號效果",
+					"placeholder": "表情符號名稱",
+					"errors": {
+						"no_name": "你必須填寫表情符號名稱",
+						"name_format": "表情符號名稱僅支援半形的英文字母及數字",
+						"name_length": "表情符號名稱上限為 _NUMBER_ 字元"
+					}
+				},
+				"server_rejected": { "title": "上傳表情符號時發生錯誤", "description": "伺服器駁回上傳的表情符號。" },
+				"emote_uploaded": { "title": "已上傳表情符號", "description": "你已成功上傳表情符號，現正等待審核" }
+			}
+		}
+	},
+	"setting_window": {
+		"title": "設定",
+		"tabs": { "game": "遊戲", "anime_list": "動畫列表", "graphics": "視覺", "audio": "音效" },
+		"language": "語言",
+		"auto_submit": { "title": "自動提交", "description": "倒數完畢時自動提交答案" },
+		"list_numbering": { "title": "顯示出題數", "description": "於記分板顯示各玩家動畫列表的出題數量" },
+		"disable_emotes": { "title": "禁止表情符號", "description": "禁止聊天室顯示表情符號" },
+		"answer_time": { "title": "作答時間", "description": "於頭像附近顯示作答時間" },
+		"anime_link": { "title": "相關連結", "description": "選擇於樂曲資訊顯示的動畫資料庫連結" },
+		"auto_skip_vote": {
+			"title": "自動投票快轉",
+			"description": "於作答後立即，或重播兩秒後自動投票快轉至下一階段",
+			"guessing_phase": "作答階段",
+			"replay_phase": "重播階段"
+		},
+		"block_non_friend_actions": {
+			"title": "封鎖非好友行為",
+			"description": "封鎖好友列表外玩家的社交行為",
+			"direct_messages": "私人訊息",
+			"friend_requests": "申請好友",
+			"game_invites": "遊戲邀請"
+		},
+		"anime_names": {
+			"title": "動畫名稱",
+			"description": "進行遊戲時，動畫名稱的顯示形式",
+			"english": "正式英譯",
+			"romaji": "羅馬拼音"
+		},
+		"team_answer": {
+			"title": "於聊天室顯示隊伍答案",
+			"description": "組隊時於聊天室顯示隊伍答案",
+			"never": "永不",
+			"out_of_focus": "非當前分區",
+			"always": "經常"
+		},
+		"sound_equalizing": { "title": "音訊等化器", "description": "平衡不同樂曲的音量" },
+		"max_volume": {
+			"title": "音量上限",
+			"description": "音訊等化器的音量上限。數值越高，整體音量越大；但較靜謐的樂曲也許未能完全等化"
+		},
+		"auto_hide_video": {
+			"title": "自動隱藏影片",
+			"description": "自動隱藏指定類別的影片，可於重播階段時點擊影片以再次顯示",
+			"openings": "片頭",
+			"endings": "片尾",
+			"inserts": "插曲",
+			"unwatched": { "title": "未觀看", "description": "隱藏你尚未觀看的動畫" },
+			"high_risk": { "title": "高風險", "description": "按玩家統計，高機率為劇透或非閤家歡的影片" }
+		},
+		"anime_list": {
+			"description": "遊戲會基於你已連接的 AniList、MyAnimeList 或 Kitsu 動畫列表中「包含條目」的設定篩選測題。列表會每週更新，亦可手動點擊更新。_BREAK_ 想要刪除列表的話，只要清除相關使用者名稱後點擊更新即可。",
+			"share_entries": { "title": "顯示條目", "description": "顯示來自你的動畫列表條目" },
+			"show_scores": { "title": "顯示評分", "description": "顯示你的動畫評分" },
+			"anilist_username": "AniList 使用者名稱",
+			"mal_username": "MyAnimeList 使用者名稱",
+			"mal_username_short": "MAL 使用者名稱",
+			"kitsu_username": "Kitsu 使用者名稱",
+			"last_updated": "_BOLD_ 更新日期：_BOLD_ _SPAN_ _DATE_ _SPAN_",
+			"update_messages": {
+				"update_successful": "更新成功",
+				"update_failed": "更新失敗",
+				"list_updated": "已更新列表",
+				"list_removed": "已刪除列表",
+				"unknown_username": "不明的使用者名稱",
+				"mal_private": "指定的 MAL 列表為私人列表，遊戲僅支援公開列表",
+				"mal_error": "MAL 發生錯誤，請稍後再試",
+				"anilist_error": "未能讀取 AniList 列表"
+			},
+			"included_entries": {
+				"title": "包含條目",
+				"types": {
+					"watching": "正在收看",
+					"completed": "觀看完畢",
+					"on_hold": "放置中",
+					"dropped": "已棄番",
+					"planning": "正在考慮"
+				}
+			}
+		},
+		"graphics": {
+			"particle_effects": {
+				"title": "粒子特效",
+				"description": "控制增加經驗值時等特效的粒子數量。",
+				"levels": { "off": "關", "low": "少", "high": "多" }
+			},
+			"disable_floating_text": { "title": "關閉懸浮文字", "description": "懸浮文字不會在增加經驗值和音符幣時顯示" },
+			"name_effects_friend_list": "好友列表的名稱特效"
+		},
+		"audio": { "nexus": "試煉", "master": "主音量", "music": "音樂", "effects": "效果音" }
+	},
+	"blocked_player_window": { "title": "已封鎖玩家列表", "remove_button": "刪除" },
+	"change_password_window": {
+		"title": "變更密碼",
+		"current_password": "目前密碼",
+		"no_current_password": "你必須填寫目前密碼",
+		"unexpected_error": "發生意外的錯誤，請重新嘗試",
+		"error_contacting_server": "連接伺服器時發生錯誤，請稍後再試",
+		"password_updated": "已成功更新密碼",
+		"wrong_password": "目前密碼錯誤"
+	},
+	"leaderboard_window": {
+		"title": "排行榜",
+		"levels": "等級",
+		"self": "自己",
+		"friends": "好友",
+		"top": "榜首",
+		"ranked": "積分賽",
+		"all": "全部",
+		"champs": "上月結果"
+	},
+	"tutorial_window": {
+		"title": "教學",
+		"start": "開始",
+		"reset": "重設",
+		"nexus_tutorials": "試煉教學",
+		"tutorials": {
+			"gameplay": "遊戲玩法",
+			"avatars": "個人頭像",
+			"social": "社交功能",
+			"dungeon": "迷宮",
+			"workshop": "工作坊",
+			"rune_setup": "裝備符文"
+		},
+		"status": { "locked": "未開放", "unlocked": "已解鎖", "completed": "完成" }
+	},
+	"guidelines_window": {
+		"title": "遊戲方針",
+		"description": "Anime Music Quiz 致力提供一個公平且愉快的環境予各位玩家。為此你必須遵守下列方針及管理員的指示。違規者帳號的聊天或遊戲功能將視情況受到限制，甚至被停用。",
+		"dont_cheat": {
+			"title": "嚴禁作弊",
+			"text": "使用任何會帶來不公平優勢的第三方軟體或工具均視為作弊。包括但不限於能揭露額外樂曲資訊、影片或動畫條目之工具。"
+		},
+		"no_teaming": {
+			"title": "切勿於積分賽協作",
+			"text": "積分賽模式旨在檢驗個人實力，因此嚴格禁止與其他玩家組隊或分享答案。積分賽及即興外的遊戲模式則須先請示房主並獲得同意；但再次重申，積分賽禁止任何形式之協作。"
+		},
+		"no_automated_grind": {
+			"title": "禁止（半）自動刷等",
+			"text": "以農音符幣和抽獎券為目的之手動練等沒問題。但使用任何工具或方法從而嘗試自動或半自動達到目的將視為違規，帳號會被永久停用。此規定亦包含在團體遊戲室組隊期間掛網之行為。"
+		},
+		"dont_harass": {
+			"title": "不要騷擾其他玩家",
+			"text": "這遊戲的受眾是所有人，因此無法容忍任何形式之騷擾行為。朋友之間的玩笑無傷大雅，但須確保所有在場人士都理解並明確表示可以接受。"
+		},
+		"no_hate_speech": {
+			"title": "拒絕歧視與仇恨言論",
+			"text": "如標題。請與他人友善相處，對話時勿使用帶有仇恨或歧視色彩之言論。"
+		}
+	},
+	"about_window": {
+		"title": "關於",
+		"developed_by": "由 _NAME_ 開發",
+		"development": "開發者",
+		"art": "美術",
+		"sound_and_audio": "音效",
+		"special_thanks": "特別鳴謝",
+		"credits": "來源一覽"
+	},
+	"avatar_window": {
+		"nothing_selected": "未有可顯示項目_BREAK_請於上方選擇",
+		"collapse_all": "收合所有分類",
+		"open_all": "全部展開",
+		"rhythm": {
+			"title": "節奏幣",
+			"description": "於抽獎系統抽到重複項目時自動獲得，可用以解鎖抽獎系統內獨有的獎品。",
+			"duplicate": "已擁有並轉為節奏幣"
+		},
+		"resonance_system": {
+			"target": "對象",
+			"title": "共鳴系統",
+			"target_messages": {
+				"target_message": "共鳴系統對象",
+				"require_base_skin": "須先取得對象的基礎造型 ",
+				"rare_common": "對象造型的稀有度不能為普通或稀有"
+			},
+			"no_target": "尚未選擇對象",
+			"no_target_description": "請先於商店指定頭像或造型",
+			"target_set": "設定共鳴對象",
+			"how_it_works": {
+				"title": "運作方式",
+				"description": "先於商店指定一個稀有度為史詩或傳說的頭像或造型，然後在利用抽獎系統時獲得點數；若使用頭像代幣則點數加倍。_BREAK_ 當累積到足夠點數（史詩和傳說分別為二百和五百點）後即可解鎖對象！_BREAK_ 對象可隨時變更，但已獲得的點數將會減半。_BREAK_ 你也可以指定季節或期間限定頭像為對象，但僅能在該頭像上架期間獲得點數。"
+			},
+			"set_target_prompt": {
+				"title": "設定這造型為共鳴對象嗎？",
+				"description": "抽獎時獲得的點數將用於解鎖該頭像或造型。共鳴對象可變更，但會使目前累積點數減少 50%。",
+				"confirm_button": "設定為對象"
+			},
+			"seasonal_target_prompt": {
+				"title": "季節限定對象",
+				"description": "共鳴點數只能在該頭像上架期間累積計算。仍要設定為對象嗎？",
+				"confirm_button": "是"
+			},
+			"swap_target_prompt": {
+				"title": "變更共鳴對象嗎？",
+				"description": "目前累積的共鳴點數將減少 50%。",
+				"confirm_button": "變更對象"
+			},
+			"target_no_active_warning": {
+				"title": "非有效共鳴對象",
+				"description": "對象下架或失效時，抽獎不會獲得共鳴點數。"
+			},
+			"resonance_limit_warning": {
+				"title": "已到達共鳴上限",
+				"description": "選取上架中且為史詩或傳說稀有度的頭像或造型後，抽獎獲得的共鳴點數可累積解鎖進度。若未選擇對象，點數將不予保留。請點選左邊的「對象」分頁了解詳情。"
+			},
+			"resonance_different_target_warning": {
+				"title": "非共鳴對象",
+				"description": "代幣與共鳴設定的對象不相符，抽獎時不會獲得額外共鳴點數。"
+			}
+		},
+		"favorites": {
+			"no_favorite_selected": "沒有選擇最愛造型_BREAK_點選已解鎖頭像_BREAK_右下方的 _ICON_ 即可設定",
+			"auto_switch": {
+				"description": "於每局遊戲完結時自動切換最愛頭像",
+				"auto_switch": "自動切換",
+				"mode": { "random": "隨機", "off": "關閉", "cycle": "循環" }
+			}
+		},
+		"filters": {
+			"locked": { "title": "未開放", "description": "顯示你尚未解鎖的內容" },
+			"unlocked": { "title": "已解鎖", "description": "顯示你已解鎖的內容" },
+			"available": { "title": "上架中", "description": "顯示目前可於商店解鎖的內容" },
+			"unavailable": { "title": "下架中", "description": "顯示目前未能於商店解鎖的內容" },
+			"limited": { "title": "期間限定", "description": "顯示限時內容" },
+			"unlimited": { "title": "無限制", "description": "顯示恆常可解鎖內容" },
+			"exclusive": { "title": "抽池限定", "description": "顯示只能利用抽獎系統解鎖的內容" },
+			"standard": { "title": "一般", "description": "顯示可使用音符幣解鎖的內容" },
+			"MISSING-title": "Filters"
+		},
+		"background": "選擇背景",
+		"toggle": { "on": "切換顯示", "off": "切換顯示" },
+		"poses": "姿勢",
+		"pose_names": {
+			"base": "預設",
+			"thinking": "思考中",
+			"waiting": "等待答案",
+			"no_answer": "沒有回答",
+			"correct": "對",
+			"wrong": "錯"
+		},
+		"avatar_action_button": {
+			"active": "正在使用",
+			"missing_skin": "仍缺造型福利",
+			"background_locked": "未開放背景",
+			"use": "使用",
+			"unavailable": "目前無法取得",
+			"decoration_not_unlocked": "尚未解鎖裝飾品",
+			"unlock": "解鎖"
+		},
+		"avatar_bonus": { "title": "頭像福利", "description": "解鎖十種款式或不同造型時可獲得頭像徽章" },
+		"skin_bonus": { "title": "造型福利", "description": "解鎖同一造型的十種款式即開放背景予其他頭像進行配搭" },
+		"world": "世界觀",
+		"artist": "主繪師",
+		"version_artist": "款式繪師",
+		"background_story": "幕後故事",
+		"ticket_system": {
+			"ticket": "張抽獎券",
+			"tickets": "張抽獎券",
+			"avatar_token": "個頭像代幣",
+			"avatar_tokens": "個頭像代幣",
+			"menu": { "use": "使用", "history": "記錄", "buy": "購買", "gift": "贈送" },
+			"redeem_code": "兌換抽獎券代碼",
+			"ticket_code_input": { "title": "輸入抽獎券代碼", "placeholder": "抽獎券代碼", "redeem": "兌換" },
+			"invalid_ticket_code": "無效的抽獎券代碼",
+			"ticket_code_redeemed_message": {
+				"title": "已兌換抽獎券！",
+				"description": "成功兌換 _NUMBER_ 張抽獎券和 _NUMBER2_ 個頭像代幣。"
+			},
+			"approx_dollar": "約美元 $_NUMBER_",
+			"patreon_promo": { "line_one": "請即成為 Patreon 贊助者", "line_two": "好取得最划算的抽獎券吧！" },
+			"one_ticket": "單張抽獎券",
+			"ticket_pack": "_NUMBER_ 張套組",
+			"gift_target": "贈送對象",
+			"gift_no_target_message": "於好友列表選擇贈送對象",
+			"gift_clear": "清除",
+			"gift_message": { "title": "購買並贈送抽獎券予「_NAME_」", "placeholder": "送禮訊息：「_MESSAGE_」" },
+			"no_gift_target_message": { "title": "尚未選擇贈送對象", "description": "請於下方選擇" },
+			"gift_no_friends": { "title": "好友列表沒有人選", "description": "贈送對象僅限好友列表內的玩家。" },
+			"no_past_rolls": "沒有抽獎記錄",
+			"one_roll": "單抽",
+			"ten_roll": { "title": "十連", "description": "可獲得至少一個稀有度為稀有或以上之物品！" },
+			"token_description": "如抽獎時追加代幣_BREAK_ 有50%機率可獲得_BREAK_指定頭像",
+			"token_description_dropdown": "於代幣欄選擇頭像後抽獎將有50%機率獲得指定頭像",
+			"roll": "抽獎",
+			"animated_promo": {
+				"title": "動態頭像推廣中",
+				"description": "無需基礎造型即有機會獲得",
+				"ends_in": "於 _NUMBER_ 天後結束",
+				"extended_description": "推廣期間無需先解鎖 _NAME2_ 的傳說造型，即有機會於抽獎系統中獲得 _NAME_ 的動態款式。"
+			},
+			"info": {
+				"title": "抽獎系統",
+				"description": "玩家可於抽獎系統使用抽獎券解鎖各種限定造型、款式、表情符號、頭像背景及裝飾品。",
+				"how_to_earn": {
+					"title": "如何取得抽獎券",
+					"text": "玩家每提升一級即可獲得一張抽獎券；逢十級則額外獲得五張。抽獎券亦可直接購買，或成為 Patreon 贊助者以定期獲得。"
+				},
+				"how_do_rolls_work": {
+					"title": "抽獎系統如何運作？",
+					"text": "你可於抽獎系統使用抽獎券獲得各種限定獎品；每次抽獎需消耗兩張抽獎券。獎品依稀有度及中獎機率分為四類：",
+					"common": "普通：85% 機率；純粹色違版本與表情符號。",
+					"rare": "稀有：10% 機率；進階的造型款式與裝飾。",
+					"epic": "史詩：4.5% 機率；大幅差異的造型款式、季節限定造型與背景。",
+					"legendary": "傳說：0.5% 機率；特別造型與動態款式。",
+					"info_footer": "抽池限定的預設造型之其他款式，僅在獲得該預設造型後解鎖。"
+				},
+				"how_does_rhythm_work": {
+					"title": "節奏幣的運作機制是？",
+					"text": "若抽到已解鎖的獎品，將依其稀有度獲得相應數量的節奏幣。累積足夠節奏幣後即可解鎖指定獎品。"
+				},
+				"how_does_avatar_tokens_work": {
+					"title": "頭像代幣的運作機制是？",
+					"text": "購買抽獎券或成為 Patreon 贊助者時，將獲得頭像代幣。於抽獎前使用代幣可將抽獎目標設定為指定的頭像或季節造型。設定目標後，每次抽獎有 50% 機率獲得該目標頭像或季節的不重複造型（若仍有可得獎品）。_BREAK_須留意使用頭像代幣時，各稀有度的抽中機率維持不變。"
+				}
+			},
+			"sale_text": {
+				"unlocks_remaining": "尚可購買 _SPANC_ _NUMBER_ _SPANC_ 次",
+				"days_remaining": "尚餘 _SPANC_ _NUMBER_ _SPANC_ 天",
+				"getting_started_pack": "起始套組",
+				"MISSING-promo": "Promo"
+			},
+			"subtotal": "小計",
+			"sales_tax": "消費稅",
+			"total": "總計",
+			"MISSING-gift_message_placeholder": "Enter a gift message (optional)"
+		},
+		"avatar_tokens": {
+			"title": "頭像代幣",
+			"description": "抽獎時可使用代幣設定目標頭像；能透過購買抽獎券或成為 Patreon 贊助者獲得。",
+			"not_enough_tokens": {
+				"title": "頭像代幣不足",
+				"description": "你目前尚欠 _NUMBER_ 個頭像代幣方能在抽獎時設定目標頭像。頭像代幣可以透過購買抽獎券或成為 Patreon 贊助者獲得。"
+			},
+			"not_enough_tickets": "抽獎券不足"
+		},
+		"unlock_checkout": {
+			"title": "購買",
+			"buy": "購買",
+			"gift": "贈送",
+			"tickets": "抽獎券",
+			"open_checkout": "前往付款頁面",
+			"skin_entry": "造型（預設：_NAME_）",
+			"version_entry": "款式：_NAME_",
+			"location_background": "背景",
+			"decorations": "裝飾品",
+			"errors": {
+				"failed_to_create_payment": "付款失敗，請重新嘗試。",
+				"unlimited_slots_already_unlocked": "你已解無限鎖題庫配額",
+				"insufficient_notes": "音符幣不足",
+				"insufficient_notes_message": "你沒有足夠的音符幣解鎖這物品。",
+				"insufficient_rhythm": "節奏幣不足",
+				"insufficient_rhythm_message": "你沒有足夠的節奏幣解鎖這物品。",
+				"error_unlocking": "解鎖時發生錯誤"
+			}
+		},
+		"toggle_favorite": "設為最愛造型",
+		"avatar_states": {
+			"unavailable": "下架中",
+			"limited": "期間限定",
+			"exclusive": "抽池限定",
+			"standard": "一般",
+			"unique": "獨特"
+		},
+		"decoration_buttons": { "front": "前方", "back": "後方" },
+		"item_types": { "emote": "表情符號", "background": "背景", "decoration": "裝飾品", "skin": "造型" },
+		"ticket_reward_tier": "抽獎券回禮等級 _TIER_",
+		"rhythm_price": "節奏幣價格",
+		"silver_hibike_description": "特殊色違款式。僅限於遊戲公測首週加入的玩家，或已解鎖所有頭像之非獨特款式與配色的玩家可獲得。",
+		"emote_previews": { "chat": "聊天室", "profile": "個人檔案" }
+	},
+	"avatar_lore": {
+		"hibiki": {
+			"MISSING-thief": "Hibiki is a well known happy go lucky adventurer, with a knack for getting in where she isn’t supposed to be and out with more than she entered with. A skill she’s often found boasting about at local taverns.",
+			"MISSING-monster_trainer": "Never being one to settle down for long, it didn’t surprise anyone when Hibiki set out to explore the world once she met her partner Hineko. Together the two of them make a powerhouse of a team, and are quickly making a name for themselves.",
+			"MISSING-fast_food_employee": "Finding herself in a new city, Hibiki had to quickly find a new job. Luckily, she ended up landing a great job up a local fast food joint, where she now spends her days working with great colleagues, while preparing for the next leg of her journey."
+		},
+		"honoka": {
+			"MISSING-standard": "Being weak of health, Honoka spent most of her life at her family's estate, only kept company by her books and personal maid Kyouko, until recently when she by chance ran into Ritsu and the two became friends.",
+			"MISSING-druid": "Honoka hails from a nation of druids, but is now traveling the world in search of new knowledge, the final test given to novice scholars of her people. Her travels are currently shared with Kyouko, a local knight, assigned to be her guide in this kingdom."
+		},
+		"kyouko": {
+			"MISSING-standard": "Kyouko has been working as Honoka’s personal maid for several years. Her energetic nature and natural clumsiness have resulted in several accidents that would have gotten her fired if not for her friendship with Honoka.",
+			"MISSING-knight": "As the newest member of the royal guard, Kyouko was tasked with assisting Honoka, a scholar from an allied tribe of druids, in her travels around the country. Her days are therefore spent on the road, serving as Honoka's guard and guide.",
+			"MISSING-bodyguard": "Kyouko was dismissed as Honoka’s maid, due to security changes. Still wanting to help Honoka, Kyouko studied to become a bodyguard, though her clumsiness often causes issues, Honoka let it slide as she likes spending time with Kyouko."
+		},
+		"ritsu": {
+			"MISSING-standard": "An energetic high school student with a passion for music, and club president of her school's music club. Ritsu is often found attending live concerts around the city, and it was at one of these she met and befriended an out of place Honoka.",
+			"MISSING-bard": "Ritsu was never a fan of the quiet life at her family’s farm, so when she got the chance, she ran away with a group of travelling entertainers. She now travels from town to town, sharing her music and exploring the world.",
+			"MISSING-park_ranger": "As a young girl, Ritsu fell in love with the nature in national parks on an overseas vacation. So after finishing her education, she joined the park ranger program, and now spends her days protecting the wild nature in the parks.",
+			"MISSING-kitsune": "In a certain city, there’s an urban legend about a Kitsune who hangs out around the city, joining in on the fun events going on. Ritsu has heard the rumor, but is unaware of the Kitsune bound to her, who sneaks out in her body from time to time.",
+			"MISSING-summer_games": "In what quickly have become a yearly tradition, athletes from all the different worlds meet up every summer to compete in friendly competition. This year, Ritsu is one of the favorites for winning the 100-meter sprint.",
+			"MISSING-queen": "Ritsu didn’t expect to end up as the queen of the country, but after a sudden turn of events she ended up with the crown. Although it’s all very new to her, she puts on a confident look, dedicated to not repeat her predecessors mistakes."
+		},
+		"hikari": {
+			"MISSING-standard": "As a young easy going person, Hikari enjoys his simple life as a high school math teacher. He’s also ended up as the club advisor for the music club led by Ritsu, since her leadership allows him to spend most of the time relaxing.",
+			"MISSING-scholar": "As a leading scholar at the royal academy, most would suspect Hikari to spend his days buried in dusty old tomes, and not exploring ancient ruins in search for lost arcane knowledge from past civilizations.",
+			"MISSING-fireman": "As a boy, Hikari was saved by a firefighter, which sparked his love for the job. He’s now a beloved firefighter in his local community, spending his days helping the locals and saving people when accidents occur."
+		},
+		"komugi": {
+			"MISSING-standard": "A local fox spirit of a half forgotten shrine in the countryside, Komugi is known for pulling pranks on the locals. Her shrine rarely gets visitors due to a larger shrine nearby, so she enjoys the visits she gets from Noel.",
+			"MISSING-tribal_sorcerer": "Coming from a tribe of kitsune, Komugi mastered the art of fire sorcery at an early age. But after growing bored of the peaceful village life, she set out looking for adventure and fun.",
+			"MISSING-pirate": "Known as a friend in port and a menace to all who run across her at sea. Komugi is a highly sought-after pirate for hire by anyone who has enough gold and adventures grand enough to satisfy her."
+		},
+		"noel": {
+			"MISSING-standard": "As a self proclaimed master detective, Noel finds mysteries and riddles to solve in everything, no case is too big for detective Noel！ After finding an old forgotten shrine, she now also drags its spirit Komugi along on her \"detective work\".",
+			"MISSING-brawler": "Noel never liked the strict nature of the temple she grew up in, so when she got the chance, she ran away to explore the world. She has now teamed up with Komugi, and together they travel around, getting into all kinds of adventures.",
+			"MISSING-catgirl": "During a case, Noel ended up possessed by a bakeneko. It wasn’t powerful enough to control Noel, but it still influenced her demeanor and made her sprout cat ears and tail, much to the dismay of Komugi who had to cover it all up."
+		},
+		"kuriko": {
+			"MISSING-standard": "Even among witches, Kuriko is seen as especially powerful, but her carefree attitude often keeps her from using her full powers. She can often be found having fun during the conflicts between technology and magic that occur in her world.",
+			"MISSING-sorceress": "Hailing from a nomadic tribe in the far southern countries, Kuriko has traveled all the way to the kingdom on a mission to spread the word of her people, but more often she ends up tricking people into joining her on crazy adventures."
+		},
+		"miyu": {
+			"MISSING-standard": "As a bright and cheerful girl, Miyu lived an uneventful life until her last year of middle school when she found a star shaped gem which allowed her to materialise her dormant magical powers.",
+			"MISSING-valkyrie": "Miyu showed immense potential with magic at an early age, and was recruited as an royal magical knight, where her powers quickly earned her the rank of high knight and the nickname Valkyrie.",
+			"MISSING-ice_princess": "During one of her battles, Miyu ended up defending a tribe of ice sprites, who as Miyu was about to be defeated, bestowed their powers to her. Transforming her into a magical ice princess, giving her the power to defeat the enemy.",
+			"MISSING-idol": "After a mysterious evil organization infiltrated the idol industry, Miyu had to go undercover as an idol, to figure out and put a stop to their evil schemes. So, assisted by her magic, Miyu took to the stage as a world known idol.",
+			"MISSING-summer_games": "Being a timid girl, people didn’t have much trust in Miyu being able to become a professional gymnast. But her talent and hard work proved them all wrong, and she’s now ready to display her skills at the yearly summer games."
+		},
+		"shiina": {
+			"MISSING-standard": "Spending her childhood watching idols on television, Shiina dreamed of becoming one herself. Her dream finally started to come true as she began in highschool and was able to land the job as a local idol for her city."
+		},
+		"mizuki": {
+			"MISSING-standard": "Mizuki serves as the shrine maiden at her popular shrine, sharing her blessing with its many visitors. Blessings which often end up in her favor. She often gets visits from Komugi who’s annoyed that the shrine is leaving Komugi’s forgotten.",
+			"MISSING-high_priest": "Being the High Priest of her tribe, Mizuki was enjoying her life. That all changed when Komugi broke the rules and left the tribe, forcing Mizuki to set out to bring her back. She now travels around the world, trying to catch Komugi."
+		},
+		"marine": {
+			"MISSING-standard": "Due to her hardworking, stubborn and proud nature, Marine broke several records when she reached the rank of captain at her early age. A rank she has proven worthy of, after winning several battles against the neighboring magical nations.",
+			"MISSING-buccaneer": "Most people look twice when meeting Marine for the first time, but few who comment on her size live to tell the tale. Any doubts in her skills also quickly disappear after seeing her jump between decks, grinning as she brandishes her lance."
+		},
+		"akira": {
+			"MISSING-standard": "A lot of Akira’s fans wouldn't expect that the normally cool and composed idol grew up as the oldest of several siblings. Working several jobs to help support them, until he by coincidence was scouted by a major idol agency.",
+			"MISSING-samurai": "As the crown prince of an eastern country, Akira wanted to experience the world before having to take over as a ruler. But being the crown prince, he has to travel in secret, to avoid getting caught in local politics."
+		},
+		"rinko": {
+			"MISSING-standard": "To most of her classmates, Rinko appears as a normal hard working high school student, they wouldn’t expect her to be a big fan of gothic lolita, who spends most weekends dressing up and attending events."
+		},
+		"alisa": {
+			"MISSING-standard": "Most people know Alisa as a gentle and proud girl, but due to her immense talent with the sword and magic she’s often leading the charge against the technological nations. She is also one of the few people who can stand Kuriko’s antics."
+		},
+		"chika": {
+			"MISSING-standard": "As a self proclaimed genius and master scientist, Chika lets nothing stand between her and her next experiment！ This has earned her a bit of a reputation at her school, where she’s the president of the science club."
+		},
+		"yumemi": {
+			"MISSING-standard": "Yumemi is usually found sleeping at any chance she gets. Most people are therefore surprised when they hear she’s the vice president of the science club, though she only joined to help her childhood friend Chika get enough members."
+		},
+		"katsu": {
+			"MISSING-standard": "Being a prominent player of the Zetto card game, Katsu is trying to collect the ancient precursor cards, which are said to hold the power to change the world. This often leads to battle against a shadowy organization who’re also seeking them."
+		},
+		"riku": {
+			"MISSING-standard": "Riku is known by most as Rika, a famous live streamer and vlogger who’s known for getting access to places he’s not supposed to be. Riku himself mainly just enjoys the thrill of exploring and sharing his antics."
+		},
+		"yuki": {
+			"MISSING-standard": "As a young girl, Yuki fell in love with the cheerful Christmas atmosphere. So she’s often found at cosplay events giving out presents to kids and friends. It was at one of these events she met and befriended Rinko."
+		},
+		"fuwagi": {
+			"MISSING-standard": "Most people know Fuwagi as a lucky rabbit, as luck seems to conspire with her to get her out of any situation she finds herself in. Though, she views herself as unlucky, as it’s bad luck that gets her into those situations.",
+			"MISSING-traveling_merchant": "Known as the lucky bunny, Fuwagi travels from town to town selling her wares. She got the lucky nickname because misfortune never affects her goods, but she views herself as unlucky, as every permanent store she sets up is destroyed in some accident."
+		},
+		"yuuna": {
+			"MISSING-standard": "Being the child of a famous chef, Yuuna fell in love with the art of cooking at a young age. She now travels the world, on a journey to hone her skills and prove she can live up to her mom’s legacy.",
+			"MISSING-painter": "Loving to explore and experience the world, Yuuna set out on a trip across the globe to discover its beauty. She travels leisurely from place to place, taking the time to capture the surrounding beauty on her canvas."
+		},
+		"haruki": {
+			"MISSING-standard": "Being closely attuned to nature, Haruki is one of the most powerful one-tailed kitsune and can even rival some nine tails. He’s often tasked with breaking up the fights between Komugi and Mizuki, a task he loathes."
+		},
+		"asuka": {
+			"MISSING-standard": "Asuka’s skills in the sky have earned her the title of flying ace, and is therefore often called into battle against the neighboring countries. Personally, Asuka couldn’t care less about the war, and is just happy to fly freely through the sky."
+		},
+		"fira": {
+			"MISSING-standard": "Fira wields immense powers as the heir to the dark dragon clan. Though, as she can’t stand the politics, she ran away from her home and is currently staying at Fuwagi’s house. Much to the dismay of Fuwagi who doesn’t dare ask her to leave."
+		},
+		"naomi": {
+			"MISSING-standard": "Due to her direct attitude and nature, Naomi quickly became the leader of the delinquent group at her school. Though she doesn’t seek out fights, she often ends up in them, as she isn’t one to hold back if others starts one."
+		},
+		"kumiko": {
+			"MISSING-standard": "Kumiko has been haunting her local village and pulling pranks on its inhabitants since she died over a century ago. Even though she’s known as a prankster, she’s well liked by the villagers and part of the local legends."
+		},
+		"sachiko": {
+			"MISSING-standard": "Due to Sachiko's leadership, her squad has become known as an elite squad, carrying out critical tasks in the war against the magical nation. She also got a rivalry going with Marine, trying to prove the army’s importance over the navy."
+		},
+		"kasumi": {
+			"MISSING-standard": "Kasumi comes from a secluded clan that has hunted evil yokai since ancient time. She recently finished her training and became a kunochi of the clan, though her inexperience still shown when she’s out on missions."
+		},
+		"shin": {
+			"MISSING-standard": "Shin is known locally as a street cat, as he enjoys spending his time exploring the urban environment of his home city and interacting with the different people in it. Though, his curiosity does land him in trouble from time to time.",
+			"MISSING-maid": "Some friends wanted to pull a prank on Shin, and tricked him into helping out at a local maid café. But much to their surprise and dismay, Shin ended up being an extremely skillful maid, quickly becoming the café’s most popular."
+		},
+		"lilith": {
+			"MISSING-standard": "Lilith comes from a long line of ancient vampires, but currently enjoy a normal high school life. Though she doesn’t hide her vampire origins, people around her doesn’t believe it, and just thinks it’s a quick of her personality.",
+			"MISSING-school_girl": "Living her highschool life to her fullest, Lilith looks almost like any other energetic highschool girl, beside the fact she’s a vampire. While she doesn’t hide this, everyone around her just thinks she’s joking around."
+		},
+		"mao": {
+			"MISSING-standard": "Mao was born with the reincarnated demon kings spirit sealed inside her, granting her the ability to tab into his powers, power which might corrupt her and free the demon king. Or that’s what she’ll tell you when you ask what she’s doing.",
+			"MISSING-student_president": "After a random series of events, Mao ended up as the student council president of her school. Taking up the responsibility, she’s now ready to rule the school with an iron fist and show everyone how a true student president acts！",
+			"MISSING-demon_lord": "Suddenly finding themselves summoned to another world as a demon lord would shock a lot of people, but not Mao, who relished in finally having the power she always dreamed of. Though, she still has to learn how to use them."
+		},
+		"kei": {
+			"MISSING-standard": "Being born without magical talent, Kei decided to dedicate herself to developing trinkets and gadgets, utilizing the magical artifacts found in her country. Due to the conflict with the nearby technological nations, this have earned her both friends and foes."
+		},
+		"akane": {
+			"MISSING-standard": "As the leader of a clan of lamia, Akane decided to stay neutral in the ongoing conflicts between the magical and science nations. Though her and clan members does sometime lend their skills of seduction to the magical nations."
+		},
+		"umi": {
+			"MISSING-standard": "Umi visited the marine city Venity at a young age, and was instantly charmed by its calm beauty. So when Umi grew up, she decided to move to Venity, where she now enjoys life as a gondolier in her favorite city.",
+			"MISSING-drummer": "Most people know Umi as an elegant gondolier, so they’re pretty surprised the first time they see her let loose as the drummer of The Wave, letting out all that energy she keeps under wrap during her gondolier work."
+		},
+		"etsuko": {
+			"MISSING-standard": "Watching her mother, a professional athlete, Etsuko fell in love with track and field sports. Though her hard work and skills, she’s now looking towards qualifying to the national championship as her school's ace runner."
+		},
+		"yasuko": {
+			"MISSING-standard": "Yasuko enjoys her life in Venity, working at one of the city major companies. While many of her colleagues rushes around, Yasuko take life slowly, making sure to often sample the cities hot spring, often inviting Umi along."
+		},
+		"yin_yan": {
+			"MISSING-standard": "Twins are a rare occurrence in the Kitsune world, so Yin and Yan were seen as a divine blessing by their clan. They now work as messengers for the clan, traveling the country bringing messages between its members.",
+			"MISSING-mahou_shoujo": "After getting caught up in one of Miyu’s battle, the twins Yin and Yan ended up catching a magical gem, allowing one of them to transform into a magical girl, while the other take the shape of a fox. Power they use to fight together with Miyu."
+		},
+		"ayu": {
+			"MISSING-standard": "Ayu was never one for following the norm or caring much about other people's expectations. As a self-proclaimed life enjoyer, she enjoys her days relaxing with her friends and hanging out in the city after school."
+		},
+		"miku": {
+			"MISSING-standard": "Known by her fellow soldiers as their cheerful goddess of victory, Miku boast her skill as head strategist of magic nation's flying forces, while not shying away from leading from the front lines. To the dismay of the technological nations."
+		},
+		"eksu": {
+			"MISSING-standard": "Eksu was created in an experiment that was discarded as a failure, so when Eksu materialized she found herself alone in an urban city. She quickly learned to stay hidden, but enjoys lurking around the city, watching the lights and people."
+		},
+		"victoria": {
+			"MISSING-standard": "Victoria went to a private school for rich ladies in England, while she enjoyed her time there, she always found it too restrictive. She now often joins her family on business trips, where she gets to experience others and share her own culture."
+		},
+		"sera": {
+			"MISSING-standard": "Living in the celestial realm, many angels don’t spend much time thinking about the mortal world, but Sera have always had a fascination of humans, loving to observe them, and sometimes sneaking down to the mortal world."
+		},
+		"ignis": {
+			"MISSING-standard": "Ignis the Flaming Justice is a well known hero who defends the masses when evil is afoot. Though many people have meet Ignis, no one have been able to figure out who’s behind the mask, and he has yet to share the secret with anyone.",
+			"MISSING-adventurer": "Ignis is known as a mysterious adventurer that rushes to the aid of people in need, no matter if it’s a caravan getting ambushed by monsters or farmers being harassed by corrupt knights, as he travels through the kingdom."
+		},
+		"rin": {
+			"MISSING-standard": "Having a hard time with bullies in school, Rin quickly accepted when a strange entity offered her magical powers. Drunk on her new powers, Rin started enacting revenge on her former bullies, often leading her to clash with Miyu."
+		},
+		"emiri": {
+			"MISSING-standard": "Looking forward to enjoying her dream high school life, Emiri was shocked to find Chika and Yumemi in her class. Their crazy antics often end up dragging her into them, interrupting her idea of the perfect high school life."
+		},
+		"ichika": {
+			"MISSING-standard": "Scouted while in high school, Ichika turned out to be a prodigy in the field of acting. Quickly growing to become one of Japans most famous actors. Ichika herself loves bringing characters to life, and working with people in the industry."
+		},
+		"neoko": {
+			"MISSING-standard": "Neoko surprised everyone with her sudden appearance on the v-tuber scene, quickly gaining a large audience who enjoy her quirky and passionate live-streaming. She now streams regularly, enjoying hanging out with chat and sharing her passions."
+		},
+		"elika": {
+			"MISSING-standard": "Elika enjoy a quiet life in the French countryside, where she loves to emerge herself in detective novels. She often shares the story she reads with her younger cousin and pen pal Noel, who currently live in the far away land of Japan."
+		},
+		"mofuji": {
+			"MISSING-standard": "Mofuji runs a small café in the countryside, but the location is often caught up in the battles between the technological and magic nations. Mofuji doesn’t mind this, and often keeps the café open while bombs and spell rains down around it."
+		},
+		"arai": {
+			"MISSING-standard": "Arai runs her own underground quiz tournaments, which have made her infamous in some circles and famous in others. Despite the questionability of her being both the host and a participant, her tournaments draw huge crowds."
+		},
+		"yua": {
+			"MISSING-standard": "Since high school, Yua has lowed tailoring and dressmaking, with a huge passion for wedding gowns. She secretly loves dressing up in them, dreaming of getting wed one day, but would die of embarrassment if her friends found out."
+		},
+		"kaori": {
+			"MISSING-standard": "Kaori just started highschool where she’s the quiet and nervous girl in her class, but get her talking about frogs and she forgets all that. She managed to make a couple of good friends, who have to live with Kaori trying to buy all frog merch she finds."
+		},
+		"saki": {
+			"MISSING-standard": "Due to being born with albinism, Saki spent most of her life indoors reading books. This has given her a lot of knowledge for her young age, something she loves to show off and can be rather cocky about."
+		},
+		"hanabi": {
+			"MISSING-standard": "Hanabi is the proud hair to the red dragon clan, and doesn’t accept any disrespect towards it. She can’t stand the rivaling dark dragon clan, except for Fira, who she think is insanely cute and will do anything to protect."
+		},
+		"fukami": {
+			"MISSING-standard": "While her kind usually takes part in the conflicts between the magic and technology nations, Fukami doesn’t care much about them. But much to the dismay of Marine, she loves sneaking into the technology nations to steal their fun toys."
+		},
+		"asahi": {
+			"MISSING-standard": "Asahi is the captain of her school's track team, and got a reputation as a tough person who always speak her mind. But she’s actually rather chill, and enjoys her high school days hanging out with her friends without too much drama."
+		},
+		"unknown": "不明",
+		"kiku": {
+			"MISSING-standard": "Kiku's family disagreed with her pursuing an education in music, but Kiku still enrolled in the music program at a large university. A decision she hasn't regretted, as she spends her days studying and playing the music she loves."
+		}
+	},
+	"song_library": {
+		"title": "樂曲資料庫",
+		"expand": "擴充資料庫",
+		"expand_count": "上傳數：_SPAN_ _NUMBER_ _SPAN_",
+		"expand_count_description": "你已上傳的樂曲數",
+		"expand_level_requirement": {
+			"title": "需要等級五或以上",
+			"MISSING-description": "擴充資料庫The Expand feature allows players to help add missing video/mp3 sources for songs, and isn't available for accounts below level 5"
+		},
+		"expand_confirmation": {
+			"title": "擴充影片及 MP3 資料庫",
+			"MISSING-description": "連結Help expanding the library by adding missing mp3 or video links. Songs missing from the library can be requested on the AMQ Discord"
+		},
+		"video_preview": "影片預覽",
+		"views": "檢視：",
+		"library": "資料庫",
+		"library_description": "瀏覽資料庫內所有樂曲",
+		"new_songs": "最新樂曲",
+		"new_songs_description": "查閱遊戲最近新增的 200 首樂曲",
+		"recent_wrong": "最近答錯",
+		"recent_wrong_description": "檢視你最近答錯的樂曲",
+		"no_upload_message": "不在影片及 MP3 資料庫中",
+		"upload_message_success": {
+			"title": "已新增網址",
+			"MISSING-description": "審核Video/mp3 will be added to the game after approval by a moderator"
+		},
+		"upload_message_failure": {
+			"title": "無法新增網址",
+			"MISSING-temp_ban": "You are temporarily banned from the Expand function. _NUMBER_ days left of ban",
+			"MISSING-perma_ban": "You are permanently banned from the Expand function",
+			"currently_closed": "擴充資料庫暫不開放",
+			"already_uploading": "樂曲已開始上傳",
+			"unknown_song": "不明樂曲",
+			"invalid_resolution": "無效的解析度",
+			"already_uploaded": "樂曲已上傳",
+			"no_video_approved": "指定樂曲沒有已審核的影片"
+		},
+		"upload_message_alerts": {
+			"MISSING-provide_missing_version": "連結Provide a link for a missing version",
+			"litterbox": "檔案必須上傳至 Catbox 附屬之 litter.catbox.moe",
+			"MISSING-host_format": "網址URL must point to a valid host and be in webm/mp3 format",
+			"unsupported_resolution": "不支援的解析度：_NUMBER_。解析度上限：720p",
+			"already_uploaded": "此版本已上傳",
+			"loading_video": "正在載入影片",
+			"video_passed_check": "影片通過初步檢查",
+			"error_loading_video": "載入影片時發生錯誤",
+			"submitting_video": "正在提交影片",
+			"MISSING-mp3_before_video": "Mp3 must be uploaded after a video version is approved"
+		},
+		"filters": {
+			"watched": "包含條目",
+			"unwatched": "未觀看",
+			"openings": "片頭",
+			"endings": "片尾",
+			"inserts": "插曲",
+			"missing_versions": "尚缺版本",
+			"player_state": "玩家評價",
+			"liked": "喜歡",
+			"unrated": "待評價",
+			"disliked": "不喜歡",
+			"vintage": "首播季度",
+			"song_categories": {
+				"title": "樂曲分類",
+				"standard": "一般",
+				"chanting": "吟唱",
+				"instrumental": "純音樂",
+				"character": "角色獻聲"
+			},
+			"upload_status": { "title": "上傳狀態", "uploaded": "已上傳", "missing": "尚缺" },
+			"MISSING-more_filters": "More Filters"
+		},
+		"search_targets": {
+			"all": "全部",
+			"anime": "作品名稱",
+			"song": "樂曲標題",
+			"artist": "表演者",
+			"composer": "作曲",
+			"arranger": "編曲"
+		},
+		"strict": "完全符合",
+		"MISSING-strict_description": "Do not include groups that artists belong to when searching for artists/composers/arrangers.",
+		"search": "搜尋",
+		"anime_entry": {
+			"song_counts": { "op": "_NUMBER_ 首OP", "ed": "_NUMBER_ 首ED", "insert": "_NUMBER_ 首插曲" },
+			"vintage": { "winter": "_YEAR_ 冬 ", "spring": "_YEAR_ 春", "summer": "_YEAR_ 夏", "fall": "_YEAR_ 秋" },
+			"genre": "類型",
+			"names": "適用名稱",
+			"tags": "標籤",
+			"songs": "樂曲列表",
+			"MISSING-more_info": "More Info"
+		},
+		"song_entry": {
+			"type": { "op": "OP_NUMBER_", "ed": "ED_NUMBER_", "in": "插曲" },
+			"dub": "配音版",
+			"rebroadcast": "地上波限定",
+			"composer": "作曲",
+			"arranger": "編曲",
+			"song_category": "樂曲分類",
+			"guess_percent": {
+				"title": "正解率",
+				"global": "綜合：_SPANC_ X _SPANC_%",
+				"recent": "近期：_SPANC_ X _SPANC_%",
+				"MISSING-description": "The overall correct guess percentage for this song and your own correct guess percentage counting your last 8 answers. Only includes typed answers in quizzes with larger song pools."
+			},
+			"play_count": "播放次數",
+			"play_count_correct": "次（_SPANC_ X _SPANC_% 答對）",
+			"MISSING-play_count_description": "The total number of times this song has played for you, and your correct guess percent for it.",
+			"play_count_expanded_description": {
+				"line_one": "鍵盤輸入：_NUMBER_ 次（_NUMBER2_% 答對）",
+				"line_two": "選擇題：_NUMBER_ 次（_NUMBER2_% 答對）"
+			},
+			"submit": "提交",
+			"insert_litterbox_url": "輸入 Litterbox 網址",
+			"like_options": { "like": "喜歡", "dislike": "不喜歡", "unset": "還原" },
+			"upload_state_messages": {
+				"missing": "尚缺",
+				"pending": "有待審核",
+				"uploaded": { "MISSING-title": "Uploaded", "MISSING-description": "Click to View" }
+			},
+			"MISSING-anime_header": "Anime:"
+		},
+		"faq": {
+			"shorthand": "FAQ",
+			"title": "擴充資料庫常見問題",
+			"what_version": {
+				"MISSING-title": "What version of a song should I use?",
+				"MISSING-text": "You should always use the version that was used in the show. For openings and endings, that's usually the 1:30 minute cut version. In the case that different versions are used throughout the show, you should go with the one most commonly used, if they're used equally go with the first one."
+			},
+			"still_image": {
+				"MISSING-title": "Can I use a still image instead of the video?",
+				"MISSING-text": "No, all uploads require there to be a correct video."
+			},
+			"what_to_include": {
+				"MISSING-title": "What should be included in the video?",
+				"MISSING-text": "The opening/ending/scene the song plays in. _BREAK_ If a song plays with talking or other sounds during the scene, replace the audio with a clean version that matches with what was used in the anime."
+			},
+			"file_format": {
+				"MISSING-title": "What file formats are accepted?",
+				"MISSING-text": "Video files should be in webm format, and audio files in mp3. Any other formats will be rejected by the Scan Bot."
+			},
+			"quality_requirements": {
+				"MISSING-title": "What are the quality requirements?",
+				"MISSING-text": "The song must not be pitched, sped up, slowed down or remixed in any way from their original versions. Any silence at the start or end of the song should be cut out. Likewise, extended notes at the end of the song should be cut short. In addition, the bitrate of an upload should not exceed 6.2 kbps. _BREAK_ The video should also be of decent quality and not contain hardsubs, though exceptions can be made for older or rare shows where a better quality isn't available."
+			},
+			"volume_requirements": {
+				"MISSING-title": "What are the volume requirements?",
+				"MISSING-text": "Uploads should have a mean volume between -20 and -17db. The max volume ideally should not exceed -.5dB, and if possible should be around -5dB."
+			},
+			"what_are_keyframes": {
+				"MISSING-title": "What are keyframes?",
+				"MISSING-text": "Keyframes are special frames set when the video is encoded. They allow for skipping in the video without having to load the rest of the video up to the point skipped to. _BREAK_ For AMQ a minimum of 1 keyframe for each 10 seconds of video is required, anything less will get rejected by the bot. It's recommended to have 1 keyframe per 5 seconds."
+			},
+			"what_happens_file_submit": {
+				"MISSING-title": "What happens once my file has been submitted?",
+				"MISSING-text": "After your song has been submitted, it'll enter the queue to be scanned by the scan bot. The scan bots check if the encoding, resolution and keyframe count of the file are correct. If the scan bot does not automatically reject your upload, it'll pass it to the moderator team, who will validate that the song is correct, check the quality of the video, and confirm that your edit is smooth and matches what was used in the anime. _BREAK_ If your song is rejected, you will receive a server message about it."
+			},
+			"missing_song": {
+				"MISSING-title": "A song is missing from the database, how do I get it added?",
+				"MISSING-text": "First make sure the song isn't already in the database: Make sure that it doesn't appear in the Library when not in expand mode. _BREAK_ If it isn't in the Library or in game, you can request to have it added on the game's Discord. Make sure to read the FAQ channel and the pins in the #database-fixes channel for details on rules and how to request additions."
+			},
+			"upload_rejected": {
+				"MISSING-title": "My upload was rejected but I didn't get a message?",
+				"MISSING-text": "There's a bug in the update system that causes some rejection messages not to be sent out. If you have any questions about why your upload got rejected, you can ask the database moderators in the game's Discord."
+			},
+			"what_to_do_approved": {
+				"MISSING-title": "I'm not sure what to do to get my upload approved?",
+				"MISSING-text": "If your upload got rejected, or you're not sure how to get an upload approved, it is recommended to ask on the game's Discord server, where people will be able to help you."
+			}
+		}
+	},
+	"anime_types": {
+		"tv": "電視動畫 _NUMBER_",
+		"season": "第 _NUMBER_ 季",
+		"movie": "電影 _NUMBER_",
+		"ova": "OVA _NUMBER_",
+		"ona": "網路動畫 _NUMBER_",
+		"tv_special": "電視特別篇 _NUMBER_",
+		"special": "特別篇 _NUMBER_",
+		"music_video": "MV _NUMBER_",
+		"doujin": "同人 _NUMBER_",
+		"game_cutscene_compilation": "遊戲過場動畫合輯 _NUMBER_"
+	},
+	"song_catagory": {
+		"none": "無",
+		"standard": "一般",
+		"chanting": "吟唱",
+		"instrumental": "純音樂",
+		"character": "角色獻聲"
+	},
+	"artist_hover": {
+		"other_names": "其他名義",
+		"members": "成員一覽",
+		"member_of": "下列組合一員",
+		"group": { "title": "組合", "shorthand": "組" },
+		"artist": { "title": "表演者", "shorthand": "人" }
+	},
+	"community_quiz_window": {
+		"title": "社群測驗",
+		"build": "建立",
+		"categories": {
+			"public": "公開",
+			"official": "官方",
+			"favorites": "最愛",
+			"friends": "好友",
+			"my_quizzes": "我的"
+		},
+		"sorting": { "trending": "熱門", "newest": "最新", "most_liked": "最受歡迎", "most_played": "最多人玩" },
+		"search_for_quizzes": "搜尋測驗",
+		"song_types": { "op": "片頭", "ed": "片尾", "in": "插曲" },
+		"difficulties": { "easy": "簡單", "medium": "普通", "hard": "困難" },
+		"upload_time": {
+			"last_24_hours": "最近 24 小時",
+			"last_week": "一週內",
+			"last_month": "一個月內",
+			"all_time": "不限時間"
+		},
+		"play_state": { "played": "已遊玩", "unplayed": "尚未遊玩" },
+		"slots_available": "可用題庫配額",
+		"buy_slots": "購買配額",
+		"buy_quiz_slots": "購買題庫配額",
+		"unlimited_slots": "無限",
+		"one_slot_entry": { "title": "額外配額", "description": "增加一個題庫配額" },
+		"unlimited_slot_entry": {
+			"title": "無上限",
+			"description": "可使用無限題庫配額的一次性付款",
+			"approx_dollar": "約美元 $_NUMBER_"
+		},
+		"MISSING-patreon_promo": "Become a level 3+ Patreon Backer to _BREAK_ unlock unlimited slots and more perks",
+		"creator": "建立者",
+		"description": "說明",
+		"tags": "標籤",
+		"quiz_stats": {
+			"title": "相關統計",
+			"plays": "遊玩次數:",
+			"likes": "喜歡數:",
+			"songs": "出題數:",
+			"age": "最後更新:",
+			"song_types": "樂曲種類:",
+			"difficulty": "難度:",
+			"selection": "出題傾向:",
+			"selection_types": { "random": "隨機", "watched": "玩家的包含條目" }
+		},
+		"highscores": {
+			"title": "最高紀錄",
+			"friends": "好友",
+			"personal": "個人",
+			"no_plays": "沒有紀錄",
+			"score": "得分",
+			"name": "名稱",
+			"multiple_choice_toggle": "切換顯示選擇題紀錄"
+		},
+		"quiz_buttons": {
+			"delete": "刪除",
+			"edit": "編輯",
+			"clone": "複製",
+			"share": "分享",
+			"unshare": "取消分享",
+			"publish": "發表",
+			"play": "遊玩",
+			"select": "選擇"
+		},
+		"no_quiz_selected": "尚未選擇任何測驗",
+		"messages": {
+			"error_cloning": {
+				"MISSING-title": "複製發生錯誤Error Cloning Quiz",
+				"MISSING-description": "An error occurred while trying to clone the quiz. Please try again later."
+			},
+			"quiz_cloned": {
+				"MISSING-title": "複製Quiz Cloned",
+				"MISSING-description": "The quiz has been successfully cloned."
+			},
+			"quiz_reported": {
+				"MISSING-title": "檢舉Quiz Reported",
+				"MISSING-description": "The quiz has been reported to the moderators for review."
+			},
+			"quiz_deleted": {
+				"MISSING-title": "刪除Quiz Deleted",
+				"MISSING-description": "The quiz has been successfully deleted."
+			},
+			"slot_unlocked": "已增加題庫配額上限",
+			"unlimited_slots_unlocked": "成功解鎖無上限的題庫配額",
+			"no_slots_available": {
+				"title": "沒有可用題庫配額",
+				"MISSING-description": "All quiz slots are currently in use. Unlock more slots or delete an old quiz before creating a new one."
+			},
+			"delete_quiz_confirmation": {
+				"title": "刪除題庫",
+				"MISSING-description": "Are you sure you want to permanently delete this quiz?"
+			},
+			"clone_quiz": { "title": "複製題庫", "input_text": "輸入新名稱", "confirm_button": "確認複製" },
+			"publish_quiz_confirmation": {
+				"title": "發表測驗",
+				"MISSING-description": "Public quizzes can be played by anyone, once a quiz is public you can no longer edit or delete it.",
+				"confirm_button": "確認發表"
+			},
+			"report_quiz": {
+				"title": "檢舉測驗",
+				"MISSING-input_text": "Please provide a reason for reporting this quiz.",
+				"confirm_button": "檢舉"
+			},
+			"report_failed": {
+				"MISSING-title": "檢舉Report Failed",
+				"MISSING-description": "You must provide a reason for reporting the quiz."
+			},
+			"error_sharing": {
+				"MISSING-title": "發生錯誤Error Sharing Quiz",
+				"MISSING-description": "An error occurred while trying to share the quiz. Please try again later."
+			},
+			"error_publishing": {
+				"MISSING-title": "發生錯誤Error Publishing Quiz",
+				"MISSING-description": "An error occurred while trying to publish the quiz. Please try again later."
+			},
+			"not_enough_songs": {
+				"MISSING-title": "Not Enough Songs",
+				"MISSING-description": "The quiz must have at least 5 songs to be published."
+			},
+			"publish_limit_reached": {
+				"MISSING-title": "Publish Limit Reached",
+				"MISSING-description": "You have reached the maximum number of 10 published quizzes within 24 hours, please try again later."
+			},
+			"quiz_published": {
+				"MISSING-title": "發表Quiz Published",
+				"MISSING-description": "The quiz has been successfully published."
+			}
+		},
+		"popovers": {
+			"MISSING-share": "Share this quiz with friends",
+			"MISSING-unshare": "Unshare this quiz with friends",
+			"MISSING-creation_date": "Creation Date",
+			"quiz_id": "測驗編號"
+		},
+		"checkout": { "unlock": "解鎖社群測驗題庫配額", "one_slot": "一個配額", "unlimited": "無限配額" },
+		"host_community_quiz": {
+			"MISSING-title": "社群測驗Host Community Quiz",
+			"MISSING-room_type": "遊戲室Room Type",
+			"MISSING-room_info": "遊戲室Room Info",
+			"MISSING-optional_password": "Optional Password"
+		},
+		"MISSING-browse": "Browse",
+		"medal_descriptions": {
+			"unearned": {
+				"MISSING-title": "Quiz Medals",
+				"MISSING-description": "Public quizzes awards medals based on your best result, ranging from bronze to diamond medals. Multiple choice are capped at silver medals"
+			},
+			"bronze": {
+				"MISSING-title": "Bronze Medal",
+				"MISSING-description": "Got 40% correct (80% for multiple choice) on this quiz! Next up is silver at 60% (100% for multiple choice)"
+			},
+			"silver": {
+				"MISSING-title": "Silver Medal",
+				"MISSING-description": "Got 60% correct (100% for multiple choice) on this quiz! Next up is gold at 80%"
+			},
+			"gold": {
+				"MISSING-title": "Gold Medal",
+				"MISSING-description": "Got 80% correct on this quiz! Next up is diamond at 100%"
+			},
+			"diamond": { "MISSING-title": "Diamond Medal", "MISSING-description": "Got 100% correct on this quiz!" }
+		},
+		"create_new_quiz_tile": { "MISSING-message": "Create New Quiz", "MISSING-title": "New Quiz" },
+		"unlock_at_tile": { "MISSING-message": "Unlock at Level _NUMBER_", "MISSING-title": "Locked" }
+	},
+	"community_quiz_tags": {
+		"training": "訓練用",
+		"challenge": "挑戰",
+		"themed": "主題性",
+		"favorites": "個人喜好",
+		"top_list": "精選榜"
+	},
+	"game_settings": {
+		"setup_game": "設定遊戲",
+		"select_settings_to_load": "選擇希望載入的設定",
+		"load_from_code": "載入編碼設定",
+		"tabs": { "quick": "快速", "advanced": "進階", "save": "儲存", "load": "載入" },
+		"categories": { "mode": "模式", "general": "一般", "quiz": "測驗", "anime": "動畫" },
+		"quiz_mode": { "standard_quiz": "標準測驗", "community_quiz": "社群測驗" },
+		"buttons": {
+			"exit": "離開",
+			"host": "建立",
+			"create": "建立",
+			"update": "更新",
+			"change": "變更",
+			"join": "加入",
+			"spectate": "旁觀",
+			"invite_link": "邀請連結",
+			"invite_link_copied": "已複製！",
+			"reset_to_default": "重新設定"
+		},
+		"room_name": "遊戲室名稱",
+		"private_room": "私人遊戲室",
+		"game_modes": {
+			"ranked": "積分賽",
+			"event": "活動",
+			"jam": "即興",
+			"themed": "主題問答",
+			"solo": "單人",
+			"multiplayer": "多人"
+		},
+		"game_mode_display": "_NAME_模式",
+		"game_mode_settings_display": "_NAME_遊戲設定",
+		"MISSING-algorithm_block_settings": "Algorithm Block Settings",
+		"randomize": "隨機選項",
+		"custom": "自訂",
+		"empty": "空空如也",
+		"search": "搜尋",
+		"random": "隨機",
+		"invite_description": "建立遊戲室的邀請連結",
+		"swap_button_description": "於社群測驗和標準測驗之間切換",
+		"game_mode": {
+			"title": "遊戲模式",
+			"standard": { "title": "標準", "MISSING-description": "Compete in guessing the most songs" },
+			"hint": {
+				"title": "提示",
+				"MISSING-description": "Get hints for songs, but earn fewer points when hints are used"
+			},
+			"quick_draw": { "title": "神速手", "MISSING-description": "Earn more points the quicker you guessed the song" },
+			"lives": { "title": "機會", "MISSING-description": "Start with lives, losing one each time you miss a show" },
+			"battle_royale": {
+				"title": "大逃殺",
+				"MISSING-description": "Start in a looting phase, collecting the shows that will appear in the quiz"
+			},
+			"boss_fight": {
+				"title": "頭目車輪戰",
+				"MISSING-description": "Players take turns being the boss, playing with only their songs and power-ups the boss can use against the other players"
+			}
+		},
+		"player_score": {
+			"title": "玩家評分",
+			"MISSING-description": "Limit songs to anime that players have scored on their list within the given range."
+		},
+		"anime_score": {
+			"title": "動畫評分",
+			"MISSING-description": "Limit songs to anime with a score on AniList within the given range."
+		},
+		"vintage": {
+			"title": "放送季度",
+			"description": "動畫於日本首度公開的時間。",
+			"add_to_advanced": "新增至進階篩選條件"
+		},
+		"season_selector": {
+			"winter": { "title": "冬", "shorthand": "冬" },
+			"spring": { "title": "春", "shorthand": "春" },
+			"summer": { "title": "夏", "shorthand": "夏" },
+			"fall": { "title": "秋", "shorthand": "秋" }
+		},
+		"anime_type": {
+			"title": "動畫類別",
+			"tv": "電視動畫",
+			"movie": "電影",
+			"ova": "OVA",
+			"ona": "網路動畫",
+			"special": "特別篇",
+			"one_must_be_selected": "需選取至少一種動畫類別"
+		},
+		"genre": {
+			"title": "類型",
+			"MISSING-description": "Genres are determined using AniList. If optional is used, at least one optional genre will be required by the anime."
+		},
+		"tags": {
+			"title": "標籤",
+			"MISSING-description": "Tags are determined using AniList. If optional is used, at least one optional tag will be required by the anime."
+		},
+		"number_of_players": { "title": "玩家數量", "unlimited": "無上限" },
+		"number_of_songs": { "title": "題目數" },
+		"team_size": { "title": "隊伍人數", "solo": "單人" },
+		"song_selection": {
+			"title": "出題傾向",
+			"MISSING-description": "How songs are chosen for the quiz. Watched covers all anime watched by any player.",
+			"watched": "包含條目",
+			"unwatched": "未觀看",
+			"random": "隨機",
+			"mix": "混合"
+		},
+		"watched_distribution": {
+			"title": "包含條目分布",
+			"MISSING-description": "How watched songs are chosen between players, either at random, weighted where larger lists gets more songs or an equal amount from each list.",
+			"random": "隨機",
+			"weighted": "按比例",
+			"equal": "相等"
+		},
+		"song_types": {
+			"title": "樂曲類型",
+			"openings": "片頭曲",
+			"endings": "片尾曲",
+			"inserts": "插曲",
+			"one_type_must_be_selected": "需選取至少一種樂曲類型"
+		},
+		"song_categories": {
+			"title": "樂曲分類",
+			"MISSING-description": "篩選Filter what category of songs is selected for each song type. Hover over the categories below to get a description of them.",
+			"standard": { "title": "一般", "MISSING-description": "Songs not in any of the other categories" },
+			"chanting": { "title": "吟唱", "MISSING-description": "Songs with chanting as the only main vocals" },
+			"instrumental": { "title": "純音樂", "MISSING-description": "Songs without any vocals" },
+			"character": {
+				"title": "角色獻聲",
+				"MISSING-description": "Songs sung by characters without being part of a musical performance"
+			},
+			"inserts": "插曲",
+			"one_opening_type_must_be_selected": "需選取至少一種片頭曲分類",
+			"one_ending_type_must_be_selected": "需選取至少一種片尾曲分類",
+			"one_insert_type_must_be_selected": "需選取至少一種插曲分類"
+		},
+		"scoring": {
+			"title": "得分計算方式",
+			"count": { "title": "次數", "MISSING-description": "Players earn 1 point for each show they guess correctly" },
+			"hint": {
+				"title": "提示",
+				"MISSING-description": "Players can get hints for songs, but earn fewer points when hints are used."
+			},
+			"speed": { "title": "速度", "MISSING-description": "Players earn more points the quicker they guessed the song" },
+			"lives": {
+				"title": "機會",
+				"MISSING-description": "Players start with a set amount of lives, and lose 1 each time they get a song wrong another player guessed"
+			},
+			"boss": {
+				"title": "頭目",
+				"MISSING-description": "Players take turns being the boss, playing with only their songs and a set amount of lives. The boss earns points the more songs they guess before they’re outed by the other players."
+			}
+		},
+		"show_selection": {
+			"title": "出題傾向",
+			"MISSING-description": "選取How shows are selected for the quiz",
+			"auto": { "title": "自動", "MISSING-description": "Game randomly picks shows from within the settings" },
+			"looting": {
+				"title": "手動",
+				"MISSING-description": "Play a looting phase before the quiz, where players move around collecting the shows used for the quiz"
+			}
+		},
+		"answering": {
+			"title": "作答模式",
+			"MISSING-description": "How players submit answers.",
+			"typing": {
+				"title": "鍵盤輸入",
+				"MISSING-description": "選取Players write their answers, with dropdown suggestions to select from"
+			},
+			"mix": {
+				"title": "混合",
+				"MISSING-description": "All players can choose between typing and multiple choice answering"
+			},
+			"multiple_choice": { "title": "選擇題", "MISSING-description": "Players get possible 4 answers to choose from" }
+		},
+		"lives": { "title": "機會", "MISSING-description": "The amount of lives players start with." },
+		"boss_lives": {
+			"MISSING-title": "頭目機會Boss Lives",
+			"MISSING-description": "The amount of lives boss players start with."
+		},
+		"boss_power_ups": {
+			"MISSING-title": "Boss Power-ups",
+			"MISSING-description": "The amount of different power-ups the boss players can use."
+		},
+		"boss_max_song_count": {
+			"MISSING-title": "頭目 Boss Max Song Count",
+			"MISSING-description": "機會The max number of songs a boss player can get. If they survive all songs, they earn bonus points based on the amount of lives they have left."
+		},
+		"inventory_size": {
+			"MISSING-title": "Inventory Size",
+			"MISSING-description": "Number of shows players can carry during the looting phase"
+		},
+		"looting_time": {
+			"MISSING-title": "Looting Time",
+			"MISSING-description": "Time players have to spend looting",
+			"time_display": "_NUMBER_ 秒",
+			"time_range_display": "_NUMBER_-_NUMBER2_ 秒"
+		},
+		"loot_dropping": {
+			"MISSING-title": "Loot Dropping",
+			"MISSING-description": "Allow players to drop collected shows during the looting phase"
+		},
+		"guess_time": {
+			"title": "作答時間",
+			"MISSING-description": "Time players have, with the song playing, to submit their answer",
+			"time_display": "_NUMBER_ 秒",
+			"time_range_display": "_NUMBER_-_NUMBER2_ 秒"
+		},
+		"extra_guess_time": {
+			"title": "額外作答時間",
+			"MISSING-description": "Additional time players have to submit their answer after the song has finished playing",
+			"time_display": "_NUMBER_ 秒",
+			"time_range_display": "_NUMBER_-_NUMBER2_ 秒"
+		},
+		"sample_point": {
+			"title": "取樣時段",
+			"description": "樂曲開始播放的時間點",
+			"percent_into_song": "% 樂曲播放進度",
+			"start": "起始",
+			"middle": "中途",
+			"end": "結尾",
+			"percent_range_display": "樂曲播放進度的 _NUMBER_%-_NUMBER2_%"
+		},
+		"playback_speed": { "title": "播放速度", "description": "樂曲的播放速度" },
+		"song_difficulty": {
+			"title": "樂曲難度",
+			"description": "涵蓋的樂曲難度",
+			"easy": "簡單",
+			"medium": "普通",
+			"hard": "困難",
+			"percent_guessed_correct": "% 答對",
+			"percent_range_display": "_NUMBER_%-_NUMBER2_% 答對",
+			"one_difficulty_must_be_selected": "需選取至少一種難度"
+		},
+		"song_popularity": {
+			"title": "樂曲評價",
+			"description": "樂曲的受歡迎程度",
+			"disliked": "不喜歡",
+			"mixed": "混合",
+			"liked": "喜歡",
+			"percent_liked": "% 喜歡",
+			"percent_range_display": "_NUMBER_%-_NUMBER2_% 玩家喜歡的樂曲",
+			"one_popularity_must_be_selected": "需選取至少一種評價"
+		},
+		"modifiers": {
+			"title": "細節調整",
+			"skip_guessing": { "title": "作答快轉", "description": "允許作答階段自動投票快轉" },
+			"skip_results": { "title": "重播快轉", "description": "允許重播階段自動投票快轉" },
+			"queueing": { "title": "排隊等候", "description": "允許旁觀者排隊等候參與下回合遊戲" },
+			"duplicate_shows": { "title": "重複作品", "description": "允許包含多首樂曲的作品重複出現" },
+			"rebroadcast_songs": { "title": "地上波限定", "description": "允許題目包含只在日本電視台播放的樂曲" },
+			"dub_songs": { "title": "海外版樂曲", "description": "允許題目包含海外配音版的樂曲（古時產物，庫存有限）" },
+			"full_song_range": { "title": "完整取樣", "description": "允許出題時播放到最後一刻，導致重播時可能沒有聲音" }
+		},
+		"filter_types": { "include": "必須包含", "exclude": "必須排除", "optional": "選項之一" },
+		"alerts": {
+			"room_name_missing": "須填寫遊戲室名稱",
+			"room_name_too_long": { "title": "遊戲室名稱過長", "description": "遊戲室名稱上限為 20 字元" },
+			"password_missing": "建立私人遊戲室時須填寫密碼",
+			"one_player_score_required": "須選取至少一個玩家評分",
+			"one_anime_score_required": "須選取至少一個動畫評分",
+			"one_playback_speed_required": "需選取至少一種播放速度"
+		},
+		"errors": {
+			"too_many_tag_genre": { "title": "儲存設定時發生錯誤", "description": "已到達可設定的放送季度／標籤／類型上限" },
+			"value_already_filter": "選項已在篩選條件",
+			"error_decoding_code": "解析編碼時發生錯誤",
+			"error_decoding_settings": "解析設定時發生錯誤",
+			"error_deleting_setting": "刪除設定時發生錯誤",
+			"error_saving_setting": "儲存設定時發生錯誤"
+		},
+		"load_setting_from_code": {
+			"title": "利用編碼載入設定",
+			"placeholder": "設定編碼",
+			"confirm_button": "載入",
+			"must_provide_code": "你必須提供編碼",
+			"loading_disabled": "不開放載入功能"
+		},
+		"select_name_for_setting": {
+			"title": "為設定命名",
+			"placeholder": "填寫設定的名稱",
+			"confirm_button": "儲存",
+			"setting_saved": "已儲存設定",
+			"must_provide_name": "你必須填寫設定名稱",
+			"name_too_long": "名稱字元上限為 _NUMBER_ ",
+			"max_saved_settings": "可儲存設定的上限為 _NUMBER_ 個"
+		},
+		"delete_saved_setting": { "title": "刪除已儲存設定", "confirm_button": "刪除" },
+		"get_code": { "title": "取得設定編碼", "setting_code": "設定編碼" }
+	},
+	"room_browser": {
+		"filters": {
+			"only": { "title": "顯示:", "public": "公開", "in_lobby": "未開始", "open": "尚餘名額", "friends": "好友" },
+			"search_placeholder": "搜尋",
+			"show_selection": { "title": "出題傾向", "auto": "自動", "looting": "手動" },
+			"answering_mode": { "title": "作答模式", "typing": "鍵盤輸入", "multiple_choice": "選擇題" },
+			"song_type": { "title": "樂曲類型", "openings": "片頭", "endings": "片尾", "inserts": "插曲" },
+			"song_selection": { "title": "出題傾向", "watched": "包含條目", "unwatched": "未觀看", "random": "隨機" },
+			"scoring": {
+				"title": "得分計算方式",
+				"count": "次數",
+				"hint": "提示",
+				"speed": "速度",
+				"lives": "機會",
+				"boss": "頭目"
+			},
+			"number_of_players": "玩家數量",
+			"number_of_songs": "題目數",
+			"guess_time": "作答時間",
+			"difficulty": "難度",
+			"anime_type": {
+				"title": "動畫類別",
+				"tv": "電視動畫",
+				"movie": "電影",
+				"ova": "OVA",
+				"ona": "網路動畫",
+				"special": "特別篇"
+			},
+			"only_non_default": {
+				"MISSING-title": "非預設選項Only Non-Default Settings",
+				"sample_point": "取樣時段",
+				"playback_speed": "播放速度",
+				"anime_score": "動畫評分",
+				"vintage": "放送季度",
+				"genre": "類型",
+				"tag": "標籤",
+				"popularity": "樂曲評價"
+			}
+		},
+		"host_room": "建立遊戲室",
+		"games": "遊戲室",
+		"room_tile": {
+			"host": "主持: _SPANC_ _NAME_ _SPANC_",
+			"popovers": {
+				"spectators": "旁觀人數",
+				"songs_left": "尚餘題目",
+				"players": "玩家數",
+				"game_mode": "遊戲模式",
+				"guess_time": "作答時間",
+				"number_of_songs": "題目數",
+				"song_selection": "出題傾向",
+				"all_settings": "全部設定",
+				"song_types": "樂曲類型",
+				"friends": "好友"
+			},
+			"song_types": { "opening": "片頭曲", "ending": "片尾曲", "insert": "插曲" },
+			"join": "加入",
+			"spectate": "旁觀",
+			"game_mode": {
+				"community": "社群測驗",
+				"battle_royale": "大逃殺",
+				"hint": "提示",
+				"last_man_standing": "生還者",
+				"quick_draw": "神速手",
+				"boss_fight": "頭目車輪戰",
+				"amq_awards": "AMQ 頒獎典禮",
+				"standard": "標準"
+			},
+			"song_selection": { "random": "隨機", "mix": "混合", "watched": "包含條目", "custom": "自訂" },
+			"room_closed": "遊戲室已關閉",
+			"password": {
+				"title": "需要密碼",
+				"placeholder": "輸入密碼",
+				"confirm_button": "加入",
+				"MISSING-wrong_password": "Wrong Password",
+				"MISSING-game_closed": "Game Doesn't Exist Anymore"
+			}
+		}
+	},
+	"quiz_builder": {
+		"MISSING-title": "Quiz Builder",
+		"MISSING-save": "Save",
+		"MISSING-name": "Name",
+		"MISSING-quiz_name": "Quiz Name",
+		"rule_button": {
+			"MISSING-title": "Rule Block",
+			"MISSING-description": "Rule blocks are used to containers for other blocks and allow you to set specific quiz settings for songs in it"
+		},
+		"algorithm_button": {
+			"MISSING-title": "Algorithm Block",
+			"MISSING-description": "Algorithm blocks are used to use the games song selection algorithm to select songs for this quiz"
+		},
+		"message_button": {
+			"MISSING-title": "Message Block",
+			"MISSING-description": "Message blocks adds a message displayed to the players between songs in the quiz"
+		},
+		"title_button": {
+			"MISSING-title": "Title Block",
+			"MISSING-description": "Title blocks sets a title displayed during the quiz"
+		},
+		"sample_selector": { "MISSING-start": "Start", "MISSING-end": "End" },
+		"save_window": {
+			"MISSING-title": "Save Quiz",
+			"description": { "MISSING-title": "Description", "MISSING-placeholder": "Enter a description for your quiz" },
+			"MISSING-tags": "Tags",
+			"MISSING-tags_max_warning": "Max 2 tags allowed",
+			"MISSING-save_button": "Save",
+			"MISSING-saving": "Saving"
+		},
+		"algorithm_block": {
+			"song_type": { "MISSING-opening": "OP", "MISSING-ending": "ED", "MISSING-insert": "IN" },
+			"MISSING-genres": "_SPANC_ _NUMBER_ _SPANC_ Genres",
+			"MISSING-tags": "_SPANC_ _NUMBER_ _SPANC_ Tags",
+			"popovers": {
+				"MISSING-number_of_songs_selected": "Number of songs selected by this block",
+				"MISSING-number_of_songs_matched": "Number of songs matching the settings",
+				"MISSING-watched_matching": "Number depends on playing users list",
+				"MISSING-song_selection": "Song Selection",
+				"MISSING-song_difficulty": "Song Difficulty",
+				"MISSING-vintage": "Vintage",
+				"MISSING-genre_count": "Number of selected genres",
+				"MISSING-tag_count": "Number of selected tags",
+				"MISSING-song_types": "Song Types"
+			},
+			"song_selection": {
+				"MISSING-watched": "Watched",
+				"MISSING-unwatched": "Unwatched",
+				"MISSING-random": "Random",
+				"MISSING-mixed": "Mixed"
+			}
+		},
+		"anime_block": {
+			"song_type": {
+				"MISSING-opening": "OP _NUMBER_",
+				"MISSING-ending": "ED _NUMBER_",
+				"MISSING-insert": "IN _NUMBER_"
+			},
+			"number_of_songs_selected": {
+				"MISSING-description": "Number of Songs Selected from this Anime Block",
+				"MISSING-label": "Song Count"
+			}
+		},
+		"rule_block": {
+			"MISSING-title": "Rule Block",
+			"MISSING-tutorial_text": "Double Click or Drag Anime/Song/Algorithm to add to the Rule Block",
+			"popovers": {
+				"MISSING-block_info": "Block Info",
+				"MISSING-block_info_content": "Song Count: _NUMBER_ _BREAK_ Unique Anime: _NUMBER2_ _BREAK_ Unique Songs: _NUMBER3_",
+				"MISSING-allow_duplicates": "Allow duplicate shows to be selected from this block",
+				"MISSING-guess_time_description": "The default guess time for songs in this block",
+				"MISSING-sample_point_description": "The default sample point for songs in this block",
+				"MISSING-playback_speed_description": "The default playback speed for songs in this block"
+			},
+			"delete_message": {
+				"MISSING-title": "Delete Rule Block",
+				"MISSING-description": "Are you sure you want to delete this rule block?",
+				"MISSING-confirm": "Delete"
+			},
+			"cannot_delete_message": {
+				"MISSING-title": "Cannot Delete Rule Block",
+				"MISSING-description": "At least one rule block must exist in the quiz"
+			},
+			"order_rule": {
+				"MISSING-description": "The order songs are selected from this block",
+				"MISSING-random": "Random",
+				"MISSING-sequential": "Sequential"
+			},
+			"song_count": {
+				"MISSING-description": "Number of songs to select from this block",
+				"MISSING-label": "Song Count"
+			}
+		},
+		"song_block": {
+			"MISSING-song_by_artist": "_SPANC_ _NAME_ _SPANC_ by _SPANC2_ _NAME2_ _SPANC2_",
+			"song_types": { "MISSING-opening": "OP_NUMBER_", "MISSING-ending": "ED_NUMBER_", "MISSING-insert": "IN" }
+		},
+		"no_songs_warning": { "MISSING-title": "No Songs in Block", "MISSING-description": "No songs found in this block" },
+		"rule_labels": {
+			"MISSING-guess_time": "Guess Time",
+			"MISSING-extra_guess_time": "Extra Guess Time",
+			"MISSING-playback_speed": "Playback Speed",
+			"MISSING-sample_point": "Sample Point",
+			"MISSING-override_guess_time": "Override the default guess time for this block",
+			"MISSING-override_sample_point": "Override the default sample point for this block",
+			"MISSING-override_playback_speed": "Override the default playback speed for this block"
+		},
+		"alerts": {
+			"max_rule_block_count": {
+				"MISSING-title": "Max Rule Block Count Reached",
+				"MISSING-description": "You have reached the maximum number of _NUMBER_ rule blocks"
+			},
+			"max_rule_block_song_count": {
+				"MISSING-title": "Max Rule Block Song Count Reached",
+				"MISSING-description": "All _NUMBER_ songs are already assigned to rule blocks, reduced the song count set on rule blocks before creating a new one"
+			},
+			"max_algorithm_block_count": {
+				"MISSING-title": "Max Algorithm Block Count Reached",
+				"MISSING-description": "You have reached the maximum number of _NUMBER_ algorithm blocks"
+			},
+			"max_message_block_count": {
+				"MISSING-title": "Max Message Block Count Reached",
+				"MISSING-description": "You have reached the maximum number of _NUMBER_ message blocks"
+			},
+			"max_title_block_count": {
+				"MISSING-title": "Max Title Block Count Reached",
+				"MISSING-description": "You have reached the maximum number of _NUMBER_ title blocks"
+			},
+			"leave_warning": {
+				"MISSING-title": "Leave Quiz Builder",
+				"MISSING-description": "Are you sure you want to leave the quiz builder? Unsaved changes will be lost.",
+				"MISSING-confirm": "Leave"
+			},
+			"no_quiz_name": {
+				"MISSING-title": "No Quiz Name",
+				"MISSING-description": "You must provide a name for your quiz before saving"
+			},
+			"MISSING-quiz_saved": "Quiz Saved",
+			"save_failed": {
+				"MISSING-title": "Save Failed",
+				"MISSING-description": "An error occurred while trying to save your quiz. Please try again later."
+			},
+			"error_loading": {
+				"MISSING-title": "Error Loading Quiz",
+				"MISSING-description": "An error occurred while trying to load the quiz. Please try again later."
+			},
+			"block_limit_reached": {
+				"MISSING-title": "Block Limit Reached",
+				"MISSING-description": "You have reached the maximum number of _NUMBER_ blocks allowed in a quiz."
+			}
+		},
+		"MISSING-page_close_warning": "Leaving the page will cause you to lose any unsaved progress."
+	}
+}
